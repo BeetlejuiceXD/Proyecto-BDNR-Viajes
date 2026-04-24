@@ -1,1 +1,13 @@
-# Proyecto-BDNR-Viajes
+# **Proyecto-BDNR-Viajes**
+
+Heriberto Vlaminck Salinas 753987
+Jair Ernesto Aguilar Limon 746023
+
+
+---
+
+## **Descripcion del proyecto**
+
+
+
+
