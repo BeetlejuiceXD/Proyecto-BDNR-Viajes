@@ -1,5 +1,5 @@
 
-//Packages
+#Packages
 {
   "_id": "ObjectId",
   "package_id": "String",
@@ -16,7 +16,7 @@
 db.packages.createIndex({ destination_name: 1 })
 db.packages.createIndex({ package_id: 1 }, { unique: true })
 
-//Reservations
+#Reservations
 {
   "_id": "ObjectId",
   "reservation_id": "String",
@@ -40,7 +40,7 @@ db.reservations.createIndex({ season: 1, destination_name: 1 })
 db.reservations.createIndex({ year: 1, destination_name: 1 })
 db.reservations.createIndex({ reservation_id: 1 }, { unique: true })
 
-//Agregacion Requisito 2 gasto promedio mensual
+#Agregacion Requisito 2 gasto promedio mensual
 db.reservations.aggregate([
   {
     $match: {
@@ -82,7 +82,7 @@ db.reservations.aggregate([
 ])
 
 
-//Agregacion Requisito 3 top 10 mas vendidos
+#Agregacion Requisito 3 top 10 mas vendidos
 db.reservations.aggregate([
   {
     $match: {
@@ -120,7 +120,7 @@ db.reservations.aggregate([
   }
 ])
 
-//Agregacion Requisito 4 Ranking de viajeros
+#Agregacion Requisito 4 Ranking de viajeros
 db.reservations.aggregate([
   {
     $match: {
@@ -165,7 +165,7 @@ db.reservations.aggregate([
 ])
 
 
-//Agregacion Requisito 8 ingresos totales por destiño al año
+#Agregacion Requisito 8 ingresos totales por destiño al año
 db.reservations.aggregate([
   {
     $match: {
@@ -217,7 +217,7 @@ db.reservations.aggregate([
 db.hotels.createIndex({ price_range: 1, rating: -1 })
 db.hotels.createIndex({ hotel_id: 1 }, { unique: true })
 
-//Agregacion de requisito 5 top 10 hoteles
+#Agregacion de requisito 5 top 10 hoteles
 db.hotels.aggregate([
   {
     $match: {
@@ -243,7 +243,7 @@ db.hotels.aggregate([
 ])
 
 
-//Itineraries
+#Itineraries
 {
   "_id": "ObjectId",
   "itinerary_id": "String",
@@ -260,7 +260,7 @@ db.hotels.aggregate([
 db.itineraries.createIndex({ user_id: 1 })
 db.itineraries.createIndex({ itinerary_id: 1 }, { unique: true })
 
-//Flights
+#Flights
 {
   "_id": "ObjectId",
   "id_flight": "String",
