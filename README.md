@@ -2,6 +2,7 @@
 
 Heriberto Vlaminck Salinas 753987
 Jair Ernesto Aguilar Limon 746023
+Josue Godoy Orozco 752666
 
 
 ---
@@ -74,6 +75,8 @@ python3 main.py
 ```
 
 ## **Descripcion del proyecto**
+
+La aplicación funciona como un sistema que centraliza 3 diferentes bases de datos no relaciones, siendo cassandra, mongodb y Dgraph, donde la vista a el usuario pueda buscar destinos, consultar opciones de actividades y hoteles e informacion relevantes de viajes realizados, o que se desean realizar. Además, se incluyen funcionalidades de recomendación basadas en relaciones entre destinos y preferencias del usuario, así como el registro del historial de búsquedas y reservaciones de manera historica. 
 
 
 
