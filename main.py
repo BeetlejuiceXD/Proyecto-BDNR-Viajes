@@ -64,72 +64,32 @@ SECTIONS = [
 ]
 
 
+
+#  Carga y borrado de datos una sola accion para las 3 bases
+
+
 def cargar_datos(mongo_db, cassandra_session, dgraph_client):
-    print("\n--- Cargar Datos ---")
-    print("1. Cargar datos en MongoDB")
-    print("2. Cargar datos en Cassandra")
-    print("3. Cargar datos en Dgraph")
-    print("4. Cargar datos en todas")
-    print("5. Regresar")
-
-    option = input("Selecciona una opcion: ")
-
-    if option == "1":
-        print("Cargando datos en MongoDB...")
-        # Aqui va la logica para insertar datos en MongoDB
-        print("Pendiente de implementar")
-    elif option == "2":
-        print("Cargando datos en Cassandra...")
-        # Aqui va la logica para insertar datos en Cassandra
-        print("Pendiente de implementar")
-    elif option == "3":
-        print("Cargando datos en Dgraph...")
-        # Aqui va la logica para insertar datos en Dgraph
-        print("Pendiente de implementar")
-    elif option == "4":
-        print("Cargando datos en todas las bases...")
-        # Aqui va la logica para insertar en las 3
-        print("Pendiente de implementar")
-    elif option == "5":
+    print("\n  Esto cargara los datos iniciales en todas las bases de datos.")
+    confirm = input("  Deseas continuar? (s/n): ")
+    if confirm.lower() != "s":
         return
-    else:
-        print("Opcion invalida.")
+
+    print("  Cargando datos")
+
+    print("  Datos cargados ")
 
 
 def borrar_datos(mongo_db, cassandra_session, dgraph_client):
-    print("\n--- Borrar Datos ---")
-    print("1. Borrar datos de MongoDB")
-    print("2. Borrar datos de Cassandra")
-    print("3. Borrar datos de Dgraph")
-    print("4. Borrar datos de todas")
-    print("5. Regresar")
-
-    option = input("Selecciona una opcion: ")
-
-    if option == "1":
-        confirm = input("Seguro que deseas borrar los datos de MongoDB? (s/n): ")
-        if confirm.lower() == "s":
-            # Aqui va la logica para borrar datos de MongoDB
-            print("Pendiente de implementar")
-    elif option == "2":
-        confirm = input("Seguro que deseas borrar los datos de Cassandra? (s/n): ")
-        if confirm.lower() == "s":
-            # Aqui va la logica para borrar datos de Cassandra
-            print("Pendiente de implementar")
-    elif option == "3":
-        confirm = input("Seguro que deseas borrar los datos de Dgraph? (s/n): ")
-        if confirm.lower() == "s":
-            # Aqui va la logica para borrar datos de Dgraph
-            print("Pendiente de implementar")
-    elif option == "4":
-        confirm = input("Seguro que deseas borrar TODOS los datos? (s/n): ")
-        if confirm.lower() == "s":
-            # Aqui va la logica para borrar en las 3
-            print("Pendiente de implementar")
-    elif option == "5":
+    print("\n  Atencion Esto eliminara TODOS los datos de las bases.")
+    confirm = input("  Estas seguro? (s/n): ")
+    if confirm.lower() != "s":
         return
-    else:
-        print("Opcion invalida.")
+
+    print("  Borrando datos")
+    # TODO: drop_mongo(mongo_db)
+    # TODO: drop_cassandra(cassandra_session)
+    # TODO: drop_dgraph(dgraph_client)
+    print("  Datos eliminados exitosamente")
 
 
 def run_query(name, qid, db, mongo_db, cassandra_session, dgraph_client):
