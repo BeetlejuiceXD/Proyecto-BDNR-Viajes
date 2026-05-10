@@ -69,31 +69,31 @@ SECTIONS = [
 
 
 def cargar_datos(mongo_db, cassandra_session, dgraph_client):
-    print("\n  Esto cargara los datos iniciales en todas las bases de datos.")
+    print("\n  Esto cargara la informacion a la base de datos")
     confirm = input("  Deseas continuar? (s/n): ")
     if confirm.lower() != "s":
         return
 
-    print("  Cargando datos")
+    print("  Cargando datos...")
 
-    print("  Datos cargados ")
+    print("  Datos cargados exitosamente.")
 
 
 def borrar_datos(mongo_db, cassandra_session, dgraph_client):
-    print("\n  Atencion Esto eliminara TODOS los datos de las bases.")
+    print("\n  Atencion: Esto eliminara TODOS los datos de la base.")
     confirm = input("  Estas seguro? (s/n): ")
     if confirm.lower() != "s":
         return
 
-    print("  Borrando datos")
+    print("  Borrando datos...")
     # TODO: drop_mongo(mongo_db)
     # TODO: drop_cassandra(cassandra_session)
     # TODO: drop_dgraph(dgraph_client)
-    print("  Datos eliminados exitosamente")
+    print("  Datos eliminados exitosamente.")
 
 
 def run_query(name, qid, db, mongo_db, cassandra_session, dgraph_client):
-    print(f"\nEjecutando: {name} ({qid}, {db})")
+    print(f"\n>>> {name}")
     print("-" * 40)
 
     # MongoDB
@@ -166,7 +166,7 @@ def main():
         print(f"{total_sections + 2}. Borrar datos")
         print(f"{total_sections + 3}. Salir")
 
-        option = input("Selecciona una opcion: ")
+        option = input("\nSelecciona una opcion: ")
 
         if option == str(total_sections + 3):
             dgraph_stub.close()
@@ -190,10 +190,10 @@ def main():
         while True:
             print(f"\n--- {section['title']} ---")
             for i, (name, qid, db) in enumerate(section["queries"], 1):
-                print(f"{i}. {name} ({qid}, {db})")
+                print(f"{i}. {name}")
             print(f"{len(section['queries']) + 1}. Regresar")
 
-            sub = input("Selecciona un query: ")
+            sub = input("\nSelecciona una consulta: ")
 
             if sub == str(len(section["queries"]) + 1):
                 break
