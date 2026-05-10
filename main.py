@@ -1,5 +1,5 @@
 from connect import connect_mongo, connect_cassandra, connect_dgraph
-
+from populate import drop_dgraph
 
 SECTIONS = [
     {
@@ -75,7 +75,6 @@ def cargar_datos(mongo_db, cassandra_session, dgraph_client):
         return
 
     print("  Cargando datos...")
-
     print("  Datos cargados exitosamente.")
 
 
@@ -88,7 +87,7 @@ def borrar_datos(mongo_db, cassandra_session, dgraph_client):
     print("  Borrando datos...")
     # TODO: drop_mongo(mongo_db)
     # TODO: drop_cassandra(cassandra_session)
-    # TODO: drop_dgraph(dgraph_client)
+    drop_dgraph(dgraph_client)
     print("  Datos eliminados exitosamente.")
 
 
