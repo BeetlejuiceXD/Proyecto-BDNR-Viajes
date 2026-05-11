@@ -138,7 +138,80 @@ def load_mongo(db):
     db.flights.insert_many(flights)
     create_mongo_indexes(db)
     print("  MongoDB: datos cargados")
+#                    CASSANDRA
 
+
+def drop_cassandra(session):
+    # Borre  tablas de Cassandra para evitar datos repetidos.
+    tables = [
+        "reservaciones_lugar",
+        "reservaciones_por_estado",
+        "tarifas_hotel",
+        "busquedas_usuario",
+        "catalogo_actividades",
+        "disponibilidad_hoteles",
+        "actividades_reserva",
+    ]
+    for table in tables:
+        session.execute("DROP TABLE IF EXISTS " + table)
+    print("  Cassandra: tablas borradas")
+
+
+def create_cassandra_schema(session):
+    # Hice las tablas del doc con sus Pk y su Ck
+    session.execute("CREATE TABLE IF NOT EXISTS reservaciones_lugar (user_id TEXT, destination_name TEXT, date DATE, reservation_id TEXT, cost FLOAT, PRIMARY KEY ((user_id, destination_name), date)) WITH CLUSTERING ORDER BY (date DESC)")
+    session.execute("CREATE TABLE IF NOT EXISTS reservaciones_por_estado (user_id TEXT, status TEXT, reservation_time DATE, reservation_id TEXT, destination_name TEXT, hotel_name TEXT, id_flight TEXT, PRIMARY KEY ((user_id, status), reservation_time)) WITH CLUSTERING ORDER BY (reservation_time DESC)")
+    session.execute("CREATE TABLE IF NOT EXISTS tarifas_hotel (hotel_name TEXT, date DATE, room_type TEXT, price FLOAT, PRIMARY KEY ((hotel_name), date, room_type))")
+    session.execute("CREATE TABLE IF NOT EXISTS busquedas_usuario (user_id TEXT, search_time DATE, destination_name TEXT, departure_city TEXT, travelers_count INT, PRIMARY KEY ((user_id), search_time)) WITH CLUSTERING ORDER BY (search_time DESC)")
+    session.execute("CREATE TABLE IF NOT EXISTS catalogo_actividades (destination_id TEXT, category TEXT, activity_name TEXT, price FLOAT, PRIMARY KEY ((destination_id), category, activity_name))")
+    session.execute("CREATE TABLE IF NOT EXISTS disponibilidad_hoteles (destination_id TEXT, hotel_name TEXT, hotel_id TEXT, available_rooms INT, start_date DATE, end_date DATE, PRIMARY KEY ((destination_id), hotel_name))")
+    session.execute("CREATE TABLE IF NOT EXISTS actividades_reserva (reservation_id TEXT, activity_name TEXT, category TEXT, PRIMARY KEY ((reservation_id), activity_name))")
+    print("  Cassandra: tablas creadas")
+
+
+def load_cassandra(session):
+    # Cassandra se carga las tablas
+    drop_cassandra(session)
+    create_cassandra_schema(session)
+
+    # Guarde reservaciones por lugar y tambien por estado.
+    stmt1 = session.prepare("INSERT INTO reservaciones_lugar (user_id, destination_name, date, reservation_id, cost) VALUES (?, ?, ?, ?, ?)")
+    stmt2 = session.prepare("INSERT INTO reservaciones_por_estado (user_id, status, reservation_time, reservation_id, destination_name, hotel_name, id_flight) VALUES (?, ?, ?, ?, ?, ?, ?)")
+    for row in read_csv("reservations.csv"):
+        fecha = to_date(row["booking_date"]).date()
+        session.execute(stmt1, [row["user_id"], row["destination_name"], fecha, row["reservation_id"], float(row["price"])])
+        session.execute(stmt2, [row["user_id"], row["status"], fecha, row["reservation_id"], row["destination_name"], row["hotel_name"], row["id_flight"]])
+    print("  reservaciones ")
+
+    # Guardamos tarifas de hotel por fecha y tipo de cuarto.
+    stmt = session.prepare("INSERT INTO tarifas_hotel (hotel_name, date, room_type, price) VALUES (?, ?, ?, ?)")
+    for row in read_csv("tarifas_hotel.csv"):
+        session.execute(stmt, [row["hotel_name"], to_date(row["date"]).date(), row["room_type"], float(row["price"])])
+    print("  tarifas ")
+
+    # Guardamos busquedas para poder consultar por usuario y rango de fechas.
+    stmt = session.prepare("INSERT INTO busquedas_usuario (user_id, search_time, destination_name, departure_city, travelers_count) VALUES (?, ?, ?, ?, ?)")
+    for row in read_csv("searches.csv"):
+        session.execute(stmt, [row["user_id"], to_date(row["search_date"]).date(), row["destination_name"], row["departure_city"], int(row["travelers_count"])])
+    print("  busquedas ")
+
+    # Guardamos actividades por destino y categoria.
+    stmt = session.prepare("INSERT INTO catalogo_actividades (destination_id, category, activity_name, price) VALUES (?, ?, ?, ?)")
+    for row in read_csv("activities.csv"):
+        session.execute(stmt, [row["destination_id"], row["category"], row["activity_name"], float(row["price"])])
+    print("  catalogo ")
+
+    # Guardamos disponibilidad simple de hoteles por destino.
+    stmt = session.prepare("INSERT INTO disponibilidad_hoteles (destination_id, hotel_name, hotel_id, available_rooms, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?)")
+    for row in read_csv("hotels.csv"):
+        session.execute(stmt, [row["destination_id"], row["hotel_name"], row["hotel_id"], int(row["available_rooms"]), datetime(2026, 1, 1).date(), datetime(2026, 12, 31).date()])
+    print("  disponibilidad")
+
+    # Guardamos que actividades se hicieron en cada reserva.
+    stmt = session.prepare("INSERT INTO actividades_reserva (reservation_id, activity_name, category) VALUES (?, ?, ?)")
+    for row in read_csv("reservation_activities.csv"):
+        session.execute(stmt, [row["reservation_id"], row["activity_name"], row["category"]])
+    print("  Cassandra listo")
 
 # =====================================================
 #                    DGRAPH
@@ -234,4 +307,5 @@ def create_dgraph_schema(client):
 def load_all(mongo_db, cassandra_session, dgraph_client):
     # Punto central para cargar todas las bases.
     load_mongo(mongo_db)
+    load_cassandra(cassandra_session)
     print("  Carga completa")
