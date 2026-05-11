@@ -1,0 +1,361 @@
+hotel_name,date,room_type,price
+Hotel Sol Cancun,2026-03-06,standard,3293
+Hotel Sol Cancun,2026-03-04,doble,3094
+Hotel Sol Cancun,2026-09-20,suite,2493
+Resort Mar Azul,2026-10-05,standard,6272
+Resort Mar Azul,2026-05-19,doble,6153
+Resort Mar Azul,2026-07-17,suite,5429
+Paris Centro Hotel,2026-10-18,standard,3448
+Paris Centro Hotel,2026-06-09,doble,3315
+Paris Centro Hotel,2026-07-19,suite,4027
+Tokio Garden Inn,2026-02-14,standard,2711
+Tokio Garden Inn,2026-04-01,doble,2794
+Tokio Garden Inn,2026-04-29,suite,2328
+Cusco Andes Lodge,2026-04-07,standard,2278
+Cusco Andes Lodge,2026-02-25,doble,1669
+Cusco Andes Lodge,2026-10-15,suite,2535
+Madrid Plaza,2026-07-05,standard,3124
+Madrid Plaza,2026-09-14,doble,3076
+Madrid Plaza,2026-06-02,suite,2497
+Hotel Bariloche 007,2026-02-03,standard,4787
+Hotel Bariloche 007,2026-06-09,doble,4142
+Hotel Bariloche 007,2026-04-26,suite,4347
+Hotel Roma 008,2026-03-06,standard,7568
+Hotel Roma 008,2026-07-24,doble,7021
+Hotel Roma 008,2026-07-02,suite,7145
+Hotel Bangkok 009,2026-08-26,standard,2964
+Hotel Bangkok 009,2026-11-18,doble,3074
+Hotel Bangkok 009,2026-11-18,suite,3052
+Hotel Vancouver 010,2026-03-09,standard,6515
+Hotel Vancouver 010,2026-05-22,doble,5736
+Hotel Vancouver 010,2026-01-16,suite,5931
+Hotel Cancun 011,2026-06-29,standard,5870
+Hotel Cancun 011,2026-07-31,doble,4977
+Hotel Cancun 011,2026-08-25,suite,5206
+Hotel Paris 012,2026-07-25,standard,2503
+Hotel Paris 012,2026-11-18,doble,2243
+Hotel Paris 012,2026-04-04,suite,2441
+Hotel Tokio 013,2026-02-28,standard,6309
+Hotel Tokio 013,2026-11-08,doble,6783
+Hotel Tokio 013,2026-04-23,suite,6761
+Hotel Cusco 014,2026-01-21,standard,6980
+Hotel Cusco 014,2026-01-21,doble,7189
+Hotel Cusco 014,2026-03-24,suite,7007
+Hotel Madrid 015,2026-04-12,standard,6902
+Hotel Madrid 015,2026-06-05,doble,6286
+Hotel Madrid 015,2026-07-14,suite,6883
+Hotel Los Cabos 016,2026-01-21,standard,3776
+Hotel Los Cabos 016,2026-06-09,doble,3855
+Hotel Los Cabos 016,2026-11-23,suite,4175
+Hotel Bariloche 017,2026-04-02,standard,4350
+Hotel Bariloche 017,2026-04-27,doble,4355
+Hotel Bariloche 017,2026-09-12,suite,4505
+Hotel Roma 018,2026-09-24,standard,2624
+Hotel Roma 018,2026-08-11,doble,3050
+Hotel Roma 018,2026-10-22,suite,2721
+Hotel Bangkok 019,2026-01-01,standard,7100
+Hotel Bangkok 019,2026-05-27,doble,7908
+Hotel Bangkok 019,2026-01-22,suite,7882
+Hotel Vancouver 020,2026-10-27,standard,6700
+Hotel Vancouver 020,2026-01-25,doble,7076
+Hotel Vancouver 020,2026-05-06,suite,6776
+Hotel Cancun 021,2026-02-26,standard,2236
+Hotel Cancun 021,2026-06-13,doble,2413
+Hotel Cancun 021,2026-06-26,suite,2965
+Hotel Paris 022,2026-02-14,standard,6450
+Hotel Paris 022,2026-07-21,doble,6788
+Hotel Paris 022,2026-11-12,suite,6871
+Hotel Tokio 023,2026-04-24,standard,5753
+Hotel Tokio 023,2026-09-27,doble,5558
+Hotel Tokio 023,2026-06-28,suite,6435
+Hotel Cusco 024,2026-08-06,standard,4426
+Hotel Cusco 024,2026-06-24,doble,4681
+Hotel Cusco 024,2026-09-15,suite,4729
+Hotel Madrid 025,2026-11-18,standard,5002
+Hotel Madrid 025,2026-08-20,doble,4882
+Hotel Madrid 025,2026-01-28,suite,5054
+Hotel Los Cabos 026,2026-04-16,standard,7564
+Hotel Los Cabos 026,2026-09-20,doble,7992
+Hotel Los Cabos 026,2026-03-07,suite,7627
+Hotel Bariloche 027,2026-04-07,standard,6149
+Hotel Bariloche 027,2026-10-14,doble,6372
+Hotel Bariloche 027,2026-03-31,suite,6664
+Hotel Roma 028,2026-03-25,standard,5205
+Hotel Roma 028,2026-11-23,doble,4454
+Hotel Roma 028,2026-10-06,suite,4479
+Hotel Bangkok 029,2026-05-08,standard,7374
+Hotel Bangkok 029,2026-01-31,doble,6560
+Hotel Bangkok 029,2026-07-03,suite,6743
+Hotel Vancouver 030,2026-07-30,standard,5687
+Hotel Vancouver 030,2026-04-14,doble,6244
+Hotel Vancouver 030,2026-06-09,suite,5733
+Hotel Cancun 031,2026-03-11,standard,3347
+Hotel Cancun 031,2026-09-07,doble,3331
+Hotel Cancun 031,2026-09-05,suite,2888
+Hotel Paris 032,2026-05-04,standard,1727
+Hotel Paris 032,2026-09-21,doble,2429
+Hotel Paris 032,2026-08-16,suite,1857
+Hotel Tokio 033,2026-11-25,standard,6330
+Hotel Tokio 033,2026-06-03,doble,6107
+Hotel Tokio 033,2026-03-14,suite,6572
+Hotel Cusco 034,2026-10-16,standard,4432
+Hotel Cusco 034,2026-06-20,doble,4830
+Hotel Cusco 034,2026-03-02,suite,4747
+Hotel Madrid 035,2026-08-06,standard,6246
+Hotel Madrid 035,2026-03-28,doble,6161
+Hotel Madrid 035,2026-03-21,suite,6081
+Hotel Los Cabos 036,2026-08-25,standard,2822
+Hotel Los Cabos 036,2026-07-27,doble,2814
+Hotel Los Cabos 036,2026-04-16,suite,2080
+Hotel Bariloche 037,2026-05-29,standard,5295
+Hotel Bariloche 037,2026-07-04,doble,5781
+Hotel Bariloche 037,2026-04-16,suite,5327
+Hotel Roma 038,2026-01-31,standard,2814
+Hotel Roma 038,2026-05-24,doble,2208
+Hotel Roma 038,2026-04-11,suite,2010
+Hotel Bangkok 039,2026-06-08,standard,7159
+Hotel Bangkok 039,2026-02-27,doble,6866
+Hotel Bangkok 039,2026-06-16,suite,7156
+Hotel Vancouver 040,2026-08-28,standard,4313
+Hotel Vancouver 040,2026-07-05,doble,4027
+Hotel Vancouver 040,2026-03-28,suite,4301
+Hotel Cancun 041,2026-02-06,standard,1630
+Hotel Cancun 041,2026-01-06,doble,2063
+Hotel Cancun 041,2026-09-06,suite,1669
+Hotel Paris 042,2026-06-19,standard,3532
+Hotel Paris 042,2026-10-16,doble,3046
+Hotel Paris 042,2026-02-25,suite,3436
+Hotel Tokio 043,2026-09-08,standard,2861
+Hotel Tokio 043,2026-08-11,doble,2382
+Hotel Tokio 043,2026-04-08,suite,2684
+Hotel Cusco 044,2026-10-06,standard,2788
+Hotel Cusco 044,2026-01-05,doble,2826
+Hotel Cusco 044,2026-02-16,suite,3118
+Hotel Madrid 045,2026-05-27,standard,5244
+Hotel Madrid 045,2026-11-11,doble,5559
+Hotel Madrid 045,2026-05-09,suite,5270
+Hotel Los Cabos 046,2026-05-06,standard,2140
+Hotel Los Cabos 046,2026-03-12,doble,2825
+Hotel Los Cabos 046,2026-01-15,suite,2085
+Hotel Bariloche 047,2026-07-22,standard,6760
+Hotel Bariloche 047,2026-03-16,doble,6204
+Hotel Bariloche 047,2026-07-08,suite,6091
+Hotel Roma 048,2026-11-23,standard,5464
+Hotel Roma 048,2026-03-28,doble,5030
+Hotel Roma 048,2026-06-08,suite,5686
+Hotel Bangkok 049,2026-11-12,standard,7520
+Hotel Bangkok 049,2026-07-14,doble,7374
+Hotel Bangkok 049,2026-07-02,suite,7513
+Hotel Vancouver 050,2026-04-28,standard,7369
+Hotel Vancouver 050,2026-03-11,doble,7556
+Hotel Vancouver 050,2026-07-09,suite,7849
+Hotel Cancun 051,2026-05-10,standard,2881
+Hotel Cancun 051,2026-01-30,doble,2678
+Hotel Cancun 051,2026-02-24,suite,3216
+Hotel Paris 052,2026-11-18,standard,4243
+Hotel Paris 052,2026-07-26,doble,4226
+Hotel Paris 052,2026-01-26,suite,4267
+Hotel Tokio 053,2026-04-21,standard,5878
+Hotel Tokio 053,2026-08-05,doble,5883
+Hotel Tokio 053,2026-03-22,suite,5678
+Hotel Cusco 054,2026-11-05,standard,4147
+Hotel Cusco 054,2026-11-17,doble,3634
+Hotel Cusco 054,2026-03-14,suite,4256
+Hotel Madrid 055,2026-04-27,standard,4999
+Hotel Madrid 055,2026-03-12,doble,5285
+Hotel Madrid 055,2026-11-23,suite,5825
+Hotel Los Cabos 056,2026-07-25,standard,6130
+Hotel Los Cabos 056,2026-01-21,doble,6910
+Hotel Los Cabos 056,2026-08-14,suite,6529
+Hotel Bariloche 057,2026-04-08,standard,7279
+Hotel Bariloche 057,2026-07-10,doble,7058
+Hotel Bariloche 057,2026-01-17,suite,7917
+Hotel Roma 058,2026-11-09,standard,7640
+Hotel Roma 058,2026-09-19,doble,7200
+Hotel Roma 058,2026-03-15,suite,7055
+Hotel Bangkok 059,2026-02-06,standard,5817
+Hotel Bangkok 059,2026-01-29,doble,5666
+Hotel Bangkok 059,2026-08-04,suite,6051
+Hotel Vancouver 060,2026-06-23,standard,4678
+Hotel Vancouver 060,2026-08-13,doble,4623
+Hotel Vancouver 060,2026-04-01,suite,5539
+Hotel Cancun 061,2026-03-26,standard,2635
+Hotel Cancun 061,2026-06-01,doble,2252
+Hotel Cancun 061,2026-08-15,suite,3071
+Hotel Paris 062,2026-10-16,standard,2600
+Hotel Paris 062,2026-06-28,doble,2490
+Hotel Paris 062,2026-04-11,suite,2389
+Hotel Tokio 063,2026-02-13,standard,5564
+Hotel Tokio 063,2026-06-15,doble,5538
+Hotel Tokio 063,2026-08-24,suite,5447
+Hotel Cusco 064,2026-10-01,standard,7251
+Hotel Cusco 064,2026-11-17,doble,7207
+Hotel Cusco 064,2026-03-21,suite,7318
+Hotel Madrid 065,2026-07-25,standard,7027
+Hotel Madrid 065,2026-11-08,doble,6677
+Hotel Madrid 065,2026-02-11,suite,6873
+Hotel Los Cabos 066,2026-01-31,standard,5118
+Hotel Los Cabos 066,2026-06-19,doble,5001
+Hotel Los Cabos 066,2026-06-02,suite,4956
+Hotel Bariloche 067,2026-10-20,standard,3534
+Hotel Bariloche 067,2026-07-08,doble,3595
+Hotel Bariloche 067,2026-03-12,suite,3409
+Hotel Roma 068,2026-06-25,standard,7140
+Hotel Roma 068,2026-11-21,doble,6625
+Hotel Roma 068,2026-04-07,suite,6824
+Hotel Bangkok 069,2026-08-18,standard,7040
+Hotel Bangkok 069,2026-02-13,doble,6483
+Hotel Bangkok 069,2026-10-24,suite,6713
+Hotel Vancouver 070,2026-10-12,standard,2938
+Hotel Vancouver 070,2026-08-02,doble,2712
+Hotel Vancouver 070,2026-09-29,suite,2590
+Hotel Cancun 071,2026-10-17,standard,5786
+Hotel Cancun 071,2026-07-22,doble,5602
+Hotel Cancun 071,2026-02-28,suite,5567
+Hotel Paris 072,2026-04-03,standard,3571
+Hotel Paris 072,2026-04-14,doble,3141
+Hotel Paris 072,2026-02-27,suite,2806
+Hotel Tokio 073,2026-05-10,standard,4233
+Hotel Tokio 073,2026-02-18,doble,3760
+Hotel Tokio 073,2026-09-29,suite,4254
+Hotel Cusco 074,2026-05-09,standard,6355
+Hotel Cusco 074,2026-09-08,doble,5861
+Hotel Cusco 074,2026-10-11,suite,6098
+Hotel Madrid 075,2026-04-26,standard,4917
+Hotel Madrid 075,2026-10-21,doble,5076
+Hotel Madrid 075,2026-02-27,suite,5116
+Hotel Los Cabos 076,2026-09-20,standard,2552
+Hotel Los Cabos 076,2026-10-29,doble,2201
+Hotel Los Cabos 076,2026-02-11,suite,2492
+Hotel Bariloche 077,2026-07-28,standard,7361
+Hotel Bariloche 077,2026-02-07,doble,7485
+Hotel Bariloche 077,2026-08-14,suite,6803
+Hotel Roma 078,2026-09-15,standard,6209
+Hotel Roma 078,2026-09-17,doble,6377
+Hotel Roma 078,2026-02-28,suite,6287
+Hotel Bangkok 079,2026-09-21,standard,4417
+Hotel Bangkok 079,2026-08-24,doble,5163
+Hotel Bangkok 079,2026-07-20,suite,4870
+Hotel Vancouver 080,2026-03-29,standard,6827
+Hotel Vancouver 080,2026-04-09,doble,6412
+Hotel Vancouver 080,2026-09-01,suite,6629
+Hotel Cancun 081,2026-02-17,standard,6753
+Hotel Cancun 081,2026-07-11,doble,7407
+Hotel Cancun 081,2026-11-13,suite,6671
+Hotel Paris 082,2026-07-27,standard,3603
+Hotel Paris 082,2026-01-25,doble,3742
+Hotel Paris 082,2026-01-22,suite,3376
+Hotel Tokio 083,2026-11-01,standard,4015
+Hotel Tokio 083,2026-04-20,doble,3507
+Hotel Tokio 083,2026-06-03,suite,3160
+Hotel Cusco 084,2026-03-11,standard,7824
+Hotel Cusco 084,2026-02-14,doble,8024
+Hotel Cusco 084,2026-04-14,suite,7964
+Hotel Madrid 085,2026-02-28,standard,4627
+Hotel Madrid 085,2026-07-01,doble,3860
+Hotel Madrid 085,2026-07-07,suite,4451
+Hotel Los Cabos 086,2026-06-24,standard,7896
+Hotel Los Cabos 086,2026-01-06,doble,7918
+Hotel Los Cabos 086,2026-05-11,suite,7198
+Hotel Bariloche 087,2026-05-03,standard,5444
+Hotel Bariloche 087,2026-09-20,doble,5817
+Hotel Bariloche 087,2026-09-26,suite,6033
+Hotel Roma 088,2026-07-02,standard,5126
+Hotel Roma 088,2026-09-08,doble,4431
+Hotel Roma 088,2026-11-06,suite,4748
+Hotel Bangkok 089,2026-02-21,standard,3622
+Hotel Bangkok 089,2026-10-09,doble,3593
+Hotel Bangkok 089,2026-11-05,suite,3373
+Hotel Vancouver 090,2026-01-18,standard,4021
+Hotel Vancouver 090,2026-05-05,doble,3334
+Hotel Vancouver 090,2026-07-01,suite,3271
+Hotel Cancun 091,2026-08-17,standard,1436
+Hotel Cancun 091,2026-10-25,doble,1865
+Hotel Cancun 091,2026-02-28,suite,2225
+Hotel Paris 092,2026-01-11,standard,4717
+Hotel Paris 092,2026-02-26,doble,4293
+Hotel Paris 092,2026-05-13,suite,4407
+Hotel Tokio 093,2026-03-18,standard,7378
+Hotel Tokio 093,2026-05-29,doble,7705
+Hotel Tokio 093,2026-07-14,suite,7667
+Hotel Cusco 094,2026-03-15,standard,7830
+Hotel Cusco 094,2026-05-09,doble,7779
+Hotel Cusco 094,2026-05-18,suite,8199
+Hotel Madrid 095,2026-08-16,standard,2876
+Hotel Madrid 095,2026-01-13,doble,3212
+Hotel Madrid 095,2026-03-19,suite,3360
+Hotel Los Cabos 096,2026-09-14,standard,4618
+Hotel Los Cabos 096,2026-01-17,doble,4942
+Hotel Los Cabos 096,2026-01-19,suite,4199
+Hotel Bariloche 097,2026-04-04,standard,5829
+Hotel Bariloche 097,2026-11-27,doble,5889
+Hotel Bariloche 097,2026-11-04,suite,5595
+Hotel Roma 098,2026-09-01,standard,8327
+Hotel Roma 098,2026-03-23,doble,8046
+Hotel Roma 098,2026-08-18,suite,7739
+Hotel Bangkok 099,2026-04-28,standard,2518
+Hotel Bangkok 099,2026-11-09,doble,2154
+Hotel Bangkok 099,2026-02-08,suite,1994
+Hotel Vancouver 100,2026-06-18,standard,7312
+Hotel Vancouver 100,2026-04-21,doble,7090
+Hotel Vancouver 100,2026-03-09,suite,7375
+Hotel Cancun 101,2026-11-16,standard,5329
+Hotel Cancun 101,2026-04-19,doble,5458
+Hotel Cancun 101,2026-07-04,suite,6029
+Hotel Paris 102,2026-08-28,standard,3016
+Hotel Paris 102,2026-10-23,doble,3156
+Hotel Paris 102,2026-07-18,suite,3636
+Hotel Tokio 103,2026-07-01,standard,1896
+Hotel Tokio 103,2026-01-04,doble,1918
+Hotel Tokio 103,2026-10-24,suite,2070
+Hotel Cusco 104,2026-06-20,standard,2473
+Hotel Cusco 104,2026-01-11,doble,2495
+Hotel Cusco 104,2026-08-24,suite,3138
+Hotel Madrid 105,2026-11-08,standard,4999
+Hotel Madrid 105,2026-11-20,doble,5102
+Hotel Madrid 105,2026-03-15,suite,5232
+Hotel Los Cabos 106,2026-07-16,standard,3407
+Hotel Los Cabos 106,2026-02-02,doble,3640
+Hotel Los Cabos 106,2026-05-15,suite,3493
+Hotel Bariloche 107,2026-10-19,standard,4386
+Hotel Bariloche 107,2026-09-28,doble,4397
+Hotel Bariloche 107,2026-03-13,suite,4514
+Hotel Roma 108,2026-01-18,standard,5007
+Hotel Roma 108,2026-10-15,doble,4994
+Hotel Roma 108,2026-02-18,suite,4963
+Hotel Bangkok 109,2026-04-13,standard,3265
+Hotel Bangkok 109,2026-08-07,doble,3121
+Hotel Bangkok 109,2026-10-20,suite,3122
+Hotel Vancouver 110,2026-02-20,standard,5524
+Hotel Vancouver 110,2026-05-25,doble,5965
+Hotel Vancouver 110,2026-05-02,suite,6046
+Hotel Cancun 111,2026-03-14,standard,5542
+Hotel Cancun 111,2026-02-06,doble,5156
+Hotel Cancun 111,2026-06-24,suite,5602
+Hotel Paris 112,2026-07-05,standard,2992
+Hotel Paris 112,2026-11-22,doble,2722
+Hotel Paris 112,2026-06-29,suite,3364
+Hotel Tokio 113,2026-10-09,standard,6314
+Hotel Tokio 113,2026-07-27,doble,5924
+Hotel Tokio 113,2026-01-31,suite,6303
+Hotel Cusco 114,2026-06-22,standard,3587
+Hotel Cusco 114,2026-06-15,doble,3804
+Hotel Cusco 114,2026-09-04,suite,3415
+Hotel Madrid 115,2026-07-08,standard,3726
+Hotel Madrid 115,2026-05-05,doble,3639
+Hotel Madrid 115,2026-05-01,suite,3168
+Hotel Los Cabos 116,2026-03-19,standard,7478
+Hotel Los Cabos 116,2026-04-16,doble,7347
+Hotel Los Cabos 116,2026-08-21,suite,7754
+Hotel Bariloche 117,2026-08-17,standard,4475
+Hotel Bariloche 117,2026-10-19,doble,4860
+Hotel Bariloche 117,2026-06-04,suite,5021
+Hotel Roma 118,2026-03-28,standard,6550
+Hotel Roma 118,2026-02-03,doble,6097
+Hotel Roma 118,2026-06-04,suite,6687
+Hotel Bangkok 119,2026-06-07,standard,6247
+Hotel Bangkok 119,2026-10-20,doble,6553
+Hotel Bangkok 119,2026-06-24,suite,6064
+Hotel Vancouver 120,2026-04-08,standard,4265
+Hotel Vancouver 120,2026-02-10,doble,4266
+Hotel Vancouver 120,2026-04-02,suite,3979

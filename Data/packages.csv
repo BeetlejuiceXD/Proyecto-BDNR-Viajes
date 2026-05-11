@@ -1,0 +1,181 @@
+package_id,destination_id,destination_name,location,hotel_id,hotel_name,airline_name,final_price,season
+P001,D026,Los Cabos 026,Baja California Sur,H026,Hotel Los Cabos 026,Iberia,28002,summer
+P002,D035,Madrid 035,Madrid,H035,Hotel Madrid 035,Aeromexico,10208,spring
+P003,D066,Los Cabos 066,Baja California Sur,H066,Hotel Los Cabos 066,Viva,41440,winter
+P004,D089,Bangkok 089,Bangkok,H089,Hotel Bangkok 089,Viva,35522,summer
+P005,D002,Paris,Ile de France,H003,Paris Centro Hotel,Iberia,14536,spring
+P006,D077,Bariloche 077,Rio Negro,H077,Hotel Bariloche 077,Iberia,19324,summer
+P007,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Iberia,11257,summer
+P008,D024,Cusco 024,Cusco,H024,Hotel Cusco 024,Iberia,27279,winter
+P009,D065,Madrid 065,Madrid,H065,Hotel Madrid 065,Aeromexico,18428,spring
+P010,D051,Cancun 051,Quintana Roo,H051,Hotel Cancun 051,Iberia,14536,summer
+P011,D085,Madrid 085,Madrid,H085,Hotel Madrid 085,Iberia,18486,fall
+P012,D094,Cusco 094,Cusco,H094,Hotel Cusco 094,ANA,24069,spring
+P013,D018,Roma 018,Lazio,H018,Hotel Roma 018,Aeromexico,12327,winter
+P014,D063,Tokio 063,Kanto,H063,Hotel Tokio 063,Aeromexico,41962,spring
+P015,D096,Los Cabos 096,Baja California Sur,H096,Hotel Los Cabos 096,Iberia,24386,fall
+P016,D064,Cusco 064,Cusco,H064,Hotel Cusco 064,Aeromexico,12063,fall
+P017,D077,Bariloche 077,Rio Negro,H077,Hotel Bariloche 077,Iberia,17745,fall
+P018,D063,Tokio 063,Kanto,H063,Hotel Tokio 063,Aeromexico,28061,winter
+P019,D060,Vancouver 060,British Columbia,H060,Hotel Vancouver 060,Aeromexico,14626,fall
+P020,D059,Bangkok 059,Bangkok,H059,Hotel Bangkok 059,ANA,22751,winter
+P021,D019,Bangkok 019,Bangkok,H019,Hotel Bangkok 019,Iberia,16384,fall
+P022,D115,Madrid 115,Madrid,H115,Hotel Madrid 115,Air France,41223,spring
+P023,D094,Cusco 094,Cusco,H094,Hotel Cusco 094,Air France,16923,fall
+P024,D097,Bariloche 097,Rio Negro,H097,Hotel Bariloche 097,Air France,9768,summer
+P025,D009,Bangkok 009,Bangkok,H009,Hotel Bangkok 009,Air France,37052,fall
+P026,D014,Cusco 014,Cusco,H014,Hotel Cusco 014,Iberia,25339,summer
+P027,D025,Madrid 025,Madrid,H025,Hotel Madrid 025,Air France,44994,winter
+P028,D120,Vancouver 120,British Columbia,H120,Hotel Vancouver 120,Air France,27756,summer
+P029,D022,Paris 022,Ile de France,H022,Hotel Paris 022,Air France,25760,fall
+P030,D039,Bangkok 039,Bangkok,H039,Hotel Bangkok 039,ANA,19594,summer
+P031,D071,Cancun 071,Quintana Roo,H071,Hotel Cancun 071,Air France,37011,winter
+P032,D032,Paris 032,Ile de France,H032,Hotel Paris 032,Viva,29924,spring
+P033,D104,Cusco 104,Cusco,H104,Hotel Cusco 104,Aeromexico,43351,winter
+P034,D044,Cusco 044,Cusco,H044,Hotel Cusco 044,Air France,17249,fall
+P035,D012,Paris 012,Ile de France,H012,Hotel Paris 012,Viva,37300,winter
+P036,D005,Madrid,Madrid,H006,Madrid Plaza,Air France,13793,spring
+P037,D058,Roma 058,Lazio,H058,Hotel Roma 058,Aeromexico,43233,summer
+P038,D071,Cancun 071,Quintana Roo,H071,Hotel Cancun 071,Aeromexico,28908,spring
+P039,D090,Vancouver 090,British Columbia,H090,Hotel Vancouver 090,Aeromexico,34433,summer
+P040,D002,Paris,Ile de France,H003,Paris Centro Hotel,Air France,40149,summer
+P041,D004,Cusco,Cusco,H005,Cusco Andes Lodge,Iberia,41657,summer
+P042,D030,Vancouver 030,British Columbia,H030,Hotel Vancouver 030,Iberia,31154,spring
+P043,D026,Los Cabos 026,Baja California Sur,H026,Hotel Los Cabos 026,Iberia,41485,summer
+P044,D030,Vancouver 030,British Columbia,H030,Hotel Vancouver 030,Viva,16143,fall
+P045,D115,Madrid 115,Madrid,H115,Hotel Madrid 115,Air France,18593,spring
+P046,D004,Cusco,Cusco,H005,Cusco Andes Lodge,Air France,21065,spring
+P047,D094,Cusco 094,Cusco,H094,Hotel Cusco 094,Aeromexico,21157,summer
+P048,D040,Vancouver 040,British Columbia,H040,Hotel Vancouver 040,Iberia,16140,summer
+P049,D011,Cancun 011,Quintana Roo,H011,Hotel Cancun 011,Air France,33912,summer
+P050,D012,Paris 012,Ile de France,H012,Hotel Paris 012,Air France,21650,winter
+P051,D004,Cusco,Cusco,H005,Cusco Andes Lodge,Viva,11664,winter
+P052,D009,Bangkok 009,Bangkok,H009,Hotel Bangkok 009,Iberia,31221,spring
+P053,D079,Bangkok 079,Bangkok,H079,Hotel Bangkok 079,Iberia,28490,fall
+P054,D004,Cusco,Cusco,H005,Cusco Andes Lodge,Aeromexico,34330,winter
+P055,D017,Bariloche 017,Rio Negro,H017,Hotel Bariloche 017,Viva,18916,fall
+P056,D111,Cancun 111,Quintana Roo,H111,Hotel Cancun 111,Air France,42546,spring
+P057,D032,Paris 032,Ile de France,H032,Hotel Paris 032,Aeromexico,19531,fall
+P058,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Viva,38292,winter
+P059,D054,Cusco 054,Cusco,H054,Hotel Cusco 054,ANA,28262,spring
+P060,D048,Roma 048,Lazio,H048,Hotel Roma 048,Iberia,21172,summer
+P061,D037,Bariloche 037,Rio Negro,H037,Hotel Bariloche 037,Iberia,25118,fall
+P062,D084,Cusco 084,Cusco,H084,Hotel Cusco 084,Air France,40114,spring
+P063,D006,Los Cabos,Baja California Sur,H002,Resort Mar Azul,Viva,21724,summer
+P064,D058,Roma 058,Lazio,H058,Hotel Roma 058,Aeromexico,23263,fall
+P065,D019,Bangkok 019,Bangkok,H019,Hotel Bangkok 019,Viva,9745,summer
+P066,D024,Cusco 024,Cusco,H024,Hotel Cusco 024,Aeromexico,44916,winter
+P067,D013,Tokio 013,Kanto,H013,Hotel Tokio 013,ANA,19727,spring
+P068,D037,Bariloche 037,Rio Negro,H037,Hotel Bariloche 037,Air France,36137,fall
+P069,D083,Tokio 083,Kanto,H083,Hotel Tokio 083,Air France,37453,spring
+P070,D106,Los Cabos 106,Baja California Sur,H106,Hotel Los Cabos 106,Air France,39205,fall
+P071,D007,Bariloche 007,Rio Negro,H007,Hotel Bariloche 007,Air France,42060,fall
+P072,D037,Bariloche 037,Rio Negro,H037,Hotel Bariloche 037,ANA,16129,spring
+P073,D039,Bangkok 039,Bangkok,H039,Hotel Bangkok 039,Aeromexico,34421,spring
+P074,D082,Paris 082,Ile de France,H082,Hotel Paris 082,ANA,39995,summer
+P075,D006,Los Cabos,Baja California Sur,H002,Resort Mar Azul,ANA,17064,fall
+P076,D006,Los Cabos,Baja California Sur,H002,Resort Mar Azul,Iberia,29068,winter
+P077,D055,Madrid 055,Madrid,H055,Hotel Madrid 055,Iberia,20715,winter
+P078,D060,Vancouver 060,British Columbia,H060,Hotel Vancouver 060,Air France,20768,winter
+P079,D009,Bangkok 009,Bangkok,H009,Hotel Bangkok 009,Iberia,37964,spring
+P080,D006,Los Cabos,Baja California Sur,H002,Resort Mar Azul,Aeromexico,12556,spring
+P081,D004,Cusco,Cusco,H005,Cusco Andes Lodge,ANA,41235,summer
+P082,D009,Bangkok 009,Bangkok,H009,Hotel Bangkok 009,ANA,27021,fall
+P083,D065,Madrid 065,Madrid,H065,Hotel Madrid 065,Viva,29911,summer
+P084,D024,Cusco 024,Cusco,H024,Hotel Cusco 024,Viva,30484,fall
+P085,D015,Madrid 015,Madrid,H015,Hotel Madrid 015,Iberia,25517,spring
+P086,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Iberia,30681,fall
+P087,D023,Tokio 023,Kanto,H023,Hotel Tokio 023,Iberia,29489,fall
+P088,D020,Vancouver 020,British Columbia,H020,Hotel Vancouver 020,ANA,42598,winter
+P089,D063,Tokio 063,Kanto,H063,Hotel Tokio 063,ANA,9171,spring
+P090,D014,Cusco 014,Cusco,H014,Hotel Cusco 014,ANA,17763,fall
+P091,D021,Cancun 021,Quintana Roo,H021,Hotel Cancun 021,Aeromexico,38547,summer
+P092,D112,Paris 112,Ile de France,H112,Hotel Paris 112,Air France,31959,spring
+P093,D078,Roma 078,Lazio,H078,Hotel Roma 078,Viva,11883,spring
+P094,D052,Paris 052,Ile de France,H052,Hotel Paris 052,Viva,9809,spring
+P095,D019,Bangkok 019,Bangkok,H019,Hotel Bangkok 019,Viva,20445,winter
+P096,D039,Bangkok 039,Bangkok,H039,Hotel Bangkok 039,Air France,37616,winter
+P097,D023,Tokio 023,Kanto,H023,Hotel Tokio 023,Aeromexico,17078,spring
+P098,D035,Madrid 035,Madrid,H035,Hotel Madrid 035,ANA,14598,summer
+P099,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Viva,21578,fall
+P100,D049,Bangkok 049,Bangkok,H049,Hotel Bangkok 049,Air France,10737,spring
+P101,D102,Paris 102,Ile de France,H102,Hotel Paris 102,Air France,20242,spring
+P102,D015,Madrid 015,Madrid,H015,Hotel Madrid 015,ANA,10883,summer
+P103,D089,Bangkok 089,Bangkok,H089,Hotel Bangkok 089,Aeromexico,22062,fall
+P104,D014,Cusco 014,Cusco,H014,Hotel Cusco 014,Viva,11256,spring
+P105,D013,Tokio 013,Kanto,H013,Hotel Tokio 013,Aeromexico,29915,fall
+P106,D003,Tokio,Kanto,H004,Tokio Garden Inn,Iberia,30025,fall
+P107,D109,Bangkok 109,Bangkok,H109,Hotel Bangkok 109,ANA,11047,winter
+P108,D045,Madrid 045,Madrid,H045,Hotel Madrid 045,Aeromexico,14956,summer
+P109,D056,Los Cabos 056,Baja California Sur,H056,Hotel Los Cabos 056,ANA,9285,spring
+P110,D063,Tokio 063,Kanto,H063,Hotel Tokio 063,Air France,19413,fall
+P111,D064,Cusco 064,Cusco,H064,Hotel Cusco 064,Aeromexico,41131,spring
+P112,D046,Los Cabos 046,Baja California Sur,H046,Hotel Los Cabos 046,Air France,36664,spring
+P113,D039,Bangkok 039,Bangkok,H039,Hotel Bangkok 039,Air France,33858,summer
+P114,D069,Bangkok 069,Bangkok,H069,Hotel Bangkok 069,Iberia,38511,summer
+P115,D060,Vancouver 060,British Columbia,H060,Hotel Vancouver 060,Iberia,30892,summer
+P116,D035,Madrid 035,Madrid,H035,Hotel Madrid 035,ANA,25225,summer
+P117,D021,Cancun 021,Quintana Roo,H021,Hotel Cancun 021,Iberia,19787,spring
+P118,D020,Vancouver 020,British Columbia,H020,Hotel Vancouver 020,Iberia,21857,fall
+P119,D027,Bariloche 027,Rio Negro,H027,Hotel Bariloche 027,Air France,37608,winter
+P120,D060,Vancouver 060,British Columbia,H060,Hotel Vancouver 060,Viva,9361,winter
+P121,D109,Bangkok 109,Bangkok,H109,Hotel Bangkok 109,ANA,17140,summer
+P122,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Air France,19253,winter
+P123,D059,Bangkok 059,Bangkok,H059,Hotel Bangkok 059,ANA,30499,summer
+P124,D117,Bariloche 117,Rio Negro,H117,Hotel Bariloche 117,Aeromexico,19540,summer
+P125,D013,Tokio 013,Kanto,H013,Hotel Tokio 013,ANA,42566,winter
+P126,D053,Tokio 053,Kanto,H053,Hotel Tokio 053,Viva,32296,spring
+P127,D049,Bangkok 049,Bangkok,H049,Hotel Bangkok 049,Aeromexico,36560,winter
+P128,D014,Cusco 014,Cusco,H014,Hotel Cusco 014,Iberia,34687,summer
+P129,D017,Bariloche 017,Rio Negro,H017,Hotel Bariloche 017,Viva,18585,summer
+P130,D038,Roma 038,Lazio,H038,Hotel Roma 038,Air France,26525,summer
+P131,D087,Bariloche 087,Rio Negro,H087,Hotel Bariloche 087,Air France,32460,fall
+P132,D062,Paris 062,Ile de France,H062,Hotel Paris 062,Air France,32752,spring
+P133,D008,Roma 008,Lazio,H008,Hotel Roma 008,ANA,43776,summer
+P134,D085,Madrid 085,Madrid,H085,Hotel Madrid 085,Viva,25385,fall
+P135,D110,Vancouver 110,British Columbia,H110,Hotel Vancouver 110,Viva,22666,summer
+P136,D079,Bangkok 079,Bangkok,H079,Hotel Bangkok 079,ANA,21934,fall
+P137,D095,Madrid 095,Madrid,H095,Hotel Madrid 095,Aeromexico,36462,fall
+P138,D064,Cusco 064,Cusco,H064,Hotel Cusco 064,Air France,41202,summer
+P139,D070,Vancouver 070,British Columbia,H070,Hotel Vancouver 070,Viva,28452,winter
+P140,D054,Cusco 054,Cusco,H054,Hotel Cusco 054,Viva,10347,spring
+P141,D104,Cusco 104,Cusco,H104,Hotel Cusco 104,ANA,11221,summer
+P142,D044,Cusco 044,Cusco,H044,Hotel Cusco 044,Iberia,27622,summer
+P143,D033,Tokio 033,Kanto,H033,Hotel Tokio 033,Iberia,35458,winter
+P144,D112,Paris 112,Ile de France,H112,Hotel Paris 112,Viva,30685,spring
+P145,D017,Bariloche 017,Rio Negro,H017,Hotel Bariloche 017,Aeromexico,44743,winter
+P146,D039,Bangkok 039,Bangkok,H039,Hotel Bangkok 039,Aeromexico,12941,winter
+P147,D079,Bangkok 079,Bangkok,H079,Hotel Bangkok 079,ANA,39007,spring
+P148,D112,Paris 112,Ile de France,H112,Hotel Paris 112,Air France,33174,spring
+P149,D111,Cancun 111,Quintana Roo,H111,Hotel Cancun 111,Viva,10336,fall
+P150,D064,Cusco 064,Cusco,H064,Hotel Cusco 064,Aeromexico,38259,winter
+P151,D077,Bariloche 077,Rio Negro,H077,Hotel Bariloche 077,Air France,14434,spring
+P152,D081,Cancun 081,Quintana Roo,H081,Hotel Cancun 081,Air France,14776,spring
+P153,D061,Cancun 061,Quintana Roo,H061,Hotel Cancun 061,Iberia,21282,winter
+P154,D094,Cusco 094,Cusco,H094,Hotel Cusco 094,Iberia,39184,winter
+P155,D002,Paris,Ile de France,H003,Paris Centro Hotel,Aeromexico,29385,winter
+P156,D111,Cancun 111,Quintana Roo,H111,Hotel Cancun 111,ANA,37752,fall
+P157,D103,Tokio 103,Kanto,H103,Hotel Tokio 103,Iberia,40258,winter
+P158,D101,Cancun 101,Quintana Roo,H101,Hotel Cancun 101,Iberia,10015,fall
+P159,D075,Madrid 075,Madrid,H075,Hotel Madrid 075,Viva,24358,winter
+P160,D042,Paris 042,Ile de France,H042,Hotel Paris 042,Iberia,27908,spring
+P161,D036,Los Cabos 036,Baja California Sur,H036,Hotel Los Cabos 036,Iberia,34017,winter
+P162,D078,Roma 078,Lazio,H078,Hotel Roma 078,Air France,25694,summer
+P163,D059,Bangkok 059,Bangkok,H059,Hotel Bangkok 059,ANA,24261,spring
+P164,D114,Cusco 114,Cusco,H114,Hotel Cusco 114,Air France,21396,summer
+P165,D024,Cusco 024,Cusco,H024,Hotel Cusco 024,Iberia,35377,fall
+P166,D006,Los Cabos,Baja California Sur,H002,Resort Mar Azul,Iberia,14356,winter
+P167,D045,Madrid 045,Madrid,H045,Hotel Madrid 045,ANA,11200,spring
+P168,D076,Los Cabos 076,Baja California Sur,H076,Hotel Los Cabos 076,Iberia,38285,spring
+P169,D033,Tokio 033,Kanto,H033,Hotel Tokio 033,Iberia,14482,winter
+P170,D072,Paris 072,Ile de France,H072,Hotel Paris 072,Air France,35043,spring
+P171,D041,Cancun 041,Quintana Roo,H041,Hotel Cancun 041,Aeromexico,38382,summer
+P172,D093,Tokio 093,Kanto,H093,Hotel Tokio 093,Viva,12884,fall
+P173,D034,Cusco 034,Cusco,H034,Hotel Cusco 034,Aeromexico,9378,fall
+P174,D098,Roma 098,Lazio,H098,Hotel Roma 098,Air France,34562,fall
+P175,D049,Bangkok 049,Bangkok,H049,Hotel Bangkok 049,Air France,9826,summer
+P176,D021,Cancun 021,Quintana Roo,H021,Hotel Cancun 021,Aeromexico,18159,fall
+P177,D108,Roma 108,Lazio,H108,Hotel Roma 108,Aeromexico,24327,fall
+P178,D019,Bangkok 019,Bangkok,H019,Hotel Bangkok 019,Viva,18483,winter
+P179,D054,Cusco 054,Cusco,H054,Hotel Cusco 054,Viva,28434,fall
+P180,D063,Tokio 063,Kanto,H063,Hotel Tokio 063,Iberia,16482,winter

@@ -1,0 +1,181 @@
+search_id,user_id,destination_name,location,search_date,departure_city,travelers_count
+S001,U081,Madrid 115,Madrid,2026-04-19,Guadalajara,5
+S002,U062,Bariloche 107,Rio Negro,2026-05-27,Guadalajara,1
+S003,U033,Bariloche 097,Rio Negro,2026-04-14,Guadalajara,3
+S004,U056,Cusco 034,Cusco,2026-05-03,Guadalajara,2
+S005,U013,Vancouver 050,British Columbia,2026-05-29,Guadalajara,4
+S006,U115,Cancun 021,Quintana Roo,2026-01-30,Guadalajara,3
+S007,U019,Paris 082,Ile de France,2026-01-09,Guadalajara,4
+S008,U104,Madrid 065,Madrid,2026-06-24,Guadalajara,5
+S009,U018,Bariloche 057,Rio Negro,2026-01-01,Guadalajara,5
+S010,U037,Cusco 024,Cusco,2026-07-04,Guadalajara,4
+S011,U006,Bariloche 117,Rio Negro,2026-07-29,Guadalajara,2
+S012,U036,Cusco 074,Cusco,2026-04-03,Guadalajara,2
+S013,U108,Cusco 024,Cusco,2026-09-25,Guadalajara,2
+S014,U092,Tokio 023,Kanto,2026-04-11,Guadalajara,5
+S015,U011,Bariloche 107,Rio Negro,2026-02-14,Guadalajara,5
+S016,U094,Cusco 064,Cusco,2026-05-21,Guadalajara,2
+S017,U027,Roma 018,Lazio,2026-11-10,Guadalajara,2
+S018,U075,Vancouver 040,British Columbia,2026-04-14,Guadalajara,1
+S019,U009,Bangkok 089,Bangkok,2026-09-24,Guadalajara,4
+S020,U108,Tokio 093,Kanto,2026-01-29,Guadalajara,5
+S021,U104,Madrid 045,Madrid,2026-06-21,Guadalajara,3
+S022,U108,Paris 082,Ile de France,2026-09-10,Guadalajara,1
+S023,U002,Tokio 053,Kanto,2026-09-02,Guadalajara,2
+S024,U112,Los Cabos 086,Baja California Sur,2026-05-17,Guadalajara,2
+S025,U024,Tokio 073,Kanto,2026-07-07,Guadalajara,1
+S026,U021,Vancouver 090,British Columbia,2026-07-10,Guadalajara,5
+S027,U077,Vancouver 110,British Columbia,2026-01-03,Guadalajara,3
+S028,U067,Vancouver 120,British Columbia,2026-08-17,Guadalajara,5
+S029,U010,Los Cabos 016,Baja California Sur,2026-07-02,Guadalajara,2
+S030,U105,Bariloche 107,Rio Negro,2026-06-14,Guadalajara,4
+S031,U074,Bariloche 097,Rio Negro,2026-02-01,Guadalajara,3
+S032,U112,Cusco 014,Cusco,2026-09-11,Guadalajara,4
+S033,U066,Cusco,Cusco,2026-09-29,Guadalajara,5
+S034,U018,Tokio,Kanto,2026-05-05,Guadalajara,1
+S035,U029,Vancouver 080,British Columbia,2026-04-04,Guadalajara,2
+S036,U014,Vancouver 040,British Columbia,2026-05-09,Guadalajara,5
+S037,U105,Cusco,Cusco,2026-01-10,Guadalajara,1
+S038,U119,Vancouver 090,British Columbia,2026-04-10,Guadalajara,3
+S039,U003,Roma 108,Lazio,2026-11-03,Guadalajara,5
+S040,U060,Bariloche 067,Rio Negro,2026-05-03,Guadalajara,4
+S041,U014,Madrid 045,Madrid,2026-02-18,Guadalajara,2
+S042,U006,Madrid 035,Madrid,2026-03-05,Guadalajara,4
+S043,U064,Madrid 075,Madrid,2026-09-14,Guadalajara,3
+S044,U015,Los Cabos 016,Baja California Sur,2026-03-04,Guadalajara,4
+S045,U114,Roma 018,Lazio,2026-10-05,Guadalajara,5
+S046,U030,Cancun 111,Quintana Roo,2026-04-27,Guadalajara,2
+S047,U086,Cusco 074,Cusco,2026-08-25,Guadalajara,4
+S048,U022,Los Cabos 106,Baja California Sur,2026-01-10,Guadalajara,4
+S049,U089,Cusco 054,Cusco,2026-11-02,Guadalajara,5
+S050,U068,Madrid,Madrid,2026-07-22,Guadalajara,1
+S051,U100,Bariloche 047,Rio Negro,2026-06-23,Guadalajara,4
+S052,U031,Roma 108,Lazio,2026-06-21,Guadalajara,4
+S053,U108,Tokio 073,Kanto,2026-06-14,Guadalajara,4
+S054,U109,Paris 072,Ile de France,2026-01-28,Guadalajara,3
+S055,U067,Bangkok 019,Bangkok,2026-06-30,Guadalajara,2
+S056,U112,Madrid 055,Madrid,2026-11-20,Guadalajara,1
+S057,U047,Cusco 014,Cusco,2026-09-29,Guadalajara,2
+S058,U009,Paris 042,Ile de France,2026-08-10,Guadalajara,2
+S059,U065,Los Cabos 086,Baja California Sur,2026-01-11,Guadalajara,2
+S060,U018,Cusco 054,Cusco,2026-07-23,Guadalajara,4
+S061,U082,Los Cabos,Baja California Sur,2026-01-21,Guadalajara,1
+S062,U111,Tokio 083,Kanto,2026-11-14,Guadalajara,3
+S063,U118,Bariloche 087,Rio Negro,2026-11-16,Guadalajara,3
+S064,U081,Vancouver 070,British Columbia,2026-01-19,Guadalajara,5
+S065,U013,Tokio 033,Kanto,2026-03-04,Guadalajara,5
+S066,U002,Los Cabos 056,Baja California Sur,2026-05-02,Guadalajara,1
+S067,U037,Madrid 015,Madrid,2026-06-06,Guadalajara,3
+S068,U083,Paris 022,Ile de France,2026-03-03,Guadalajara,1
+S069,U077,Roma 118,Lazio,2026-09-21,Guadalajara,3
+S070,U011,Vancouver 060,British Columbia,2026-10-30,Guadalajara,5
+S071,U120,Bangkok 019,Bangkok,2026-08-14,Guadalajara,1
+S072,U066,Bariloche 017,Rio Negro,2026-05-31,Guadalajara,4
+S073,U074,Bariloche 037,Rio Negro,2026-05-21,Guadalajara,2
+S074,U095,Paris 012,Ile de France,2026-10-07,Guadalajara,3
+S075,U108,Bangkok 059,Bangkok,2026-11-09,Guadalajara,5
+S076,U029,Cusco 084,Cusco,2026-07-17,Guadalajara,2
+S077,U071,Cancun 091,Quintana Roo,2026-07-07,Guadalajara,4
+S078,U115,Cancun 071,Quintana Roo,2026-06-05,Guadalajara,5
+S079,U062,Cancun 061,Quintana Roo,2026-06-08,Guadalajara,1
+S080,U032,Tokio 043,Kanto,2026-04-24,Guadalajara,2
+S081,U066,Vancouver 070,British Columbia,2026-07-16,Guadalajara,5
+S082,U051,Paris,Ile de France,2026-06-30,Guadalajara,2
+S083,U111,Cancun 031,Quintana Roo,2026-06-15,Guadalajara,5
+S084,U042,Tokio 063,Kanto,2026-05-19,Guadalajara,3
+S085,U113,Roma 028,Lazio,2026-06-01,Guadalajara,1
+S086,U099,Tokio,Kanto,2026-03-23,Guadalajara,5
+S087,U009,Roma 078,Lazio,2026-06-28,Guadalajara,4
+S088,U085,Roma 008,Lazio,2026-09-22,Guadalajara,4
+S089,U107,Bariloche 057,Rio Negro,2026-07-01,Guadalajara,1
+S090,U067,Bangkok 029,Bangkok,2026-03-21,Guadalajara,4
+S091,U044,Los Cabos 086,Baja California Sur,2026-06-30,Guadalajara,2
+S092,U087,Los Cabos 026,Baja California Sur,2026-11-12,Guadalajara,5
+S093,U109,Los Cabos 036,Baja California Sur,2026-09-23,Guadalajara,1
+S094,U095,Vancouver 110,British Columbia,2026-09-01,Guadalajara,3
+S095,U101,Cancun 081,Quintana Roo,2026-11-20,Guadalajara,2
+S096,U053,Paris 112,Ile de France,2026-02-22,Guadalajara,1
+S097,U053,Bangkok 099,Bangkok,2026-10-09,Guadalajara,5
+S098,U016,Cusco 064,Cusco,2026-07-23,Guadalajara,5
+S099,U020,Cusco 054,Cusco,2026-05-24,Guadalajara,5
+S100,U078,Madrid 015,Madrid,2026-07-14,Guadalajara,4
+S101,U089,Bangkok 059,Bangkok,2026-05-28,Guadalajara,3
+S102,U038,Los Cabos 046,Baja California Sur,2026-07-20,Guadalajara,5
+S103,U072,Bariloche 077,Rio Negro,2026-07-16,Guadalajara,3
+S104,U001,Cancun 101,Quintana Roo,2026-09-13,Guadalajara,4
+S105,U057,Bangkok 039,Bangkok,2026-04-05,Guadalajara,5
+S106,U039,Tokio 103,Kanto,2026-03-16,Guadalajara,4
+S107,U074,Bangkok 049,Bangkok,2026-10-25,Guadalajara,2
+S108,U012,Los Cabos 106,Baja California Sur,2026-06-19,Guadalajara,3
+S109,U108,Roma 078,Lazio,2026-05-05,Guadalajara,3
+S110,U027,Madrid 055,Madrid,2026-01-06,Guadalajara,1
+S111,U007,Tokio 033,Kanto,2026-10-17,Guadalajara,4
+S112,U039,Roma 118,Lazio,2026-10-02,Guadalajara,3
+S113,U069,Vancouver 080,British Columbia,2026-08-12,Guadalajara,5
+S114,U106,Bariloche 067,Rio Negro,2026-08-09,Guadalajara,4
+S115,U060,Los Cabos 046,Baja California Sur,2026-01-21,Guadalajara,5
+S116,U087,Madrid 045,Madrid,2026-08-20,Guadalajara,1
+S117,U087,Bangkok 009,Bangkok,2026-09-26,Guadalajara,2
+S118,U013,Tokio 053,Kanto,2026-07-11,Guadalajara,5
+S119,U052,Cusco 084,Cusco,2026-10-15,Guadalajara,5
+S120,U020,Tokio 113,Kanto,2026-04-07,Guadalajara,4
+S121,U063,Paris 052,Ile de France,2026-08-14,Guadalajara,5
+S122,U116,Los Cabos 076,Baja California Sur,2026-06-25,Guadalajara,5
+S123,U096,Madrid 105,Madrid,2026-02-17,Guadalajara,2
+S124,U047,Cancun 041,Quintana Roo,2026-07-07,Guadalajara,1
+S125,U106,Vancouver 040,British Columbia,2026-09-20,Guadalajara,2
+S126,U015,Cusco 084,Cusco,2026-05-31,Guadalajara,3
+S127,U106,Vancouver 120,British Columbia,2026-09-18,Guadalajara,4
+S128,U081,Cancun 021,Quintana Roo,2026-09-26,Guadalajara,3
+S129,U105,Los Cabos 066,Baja California Sur,2026-04-17,Guadalajara,5
+S130,U115,Madrid 025,Madrid,2026-07-31,Guadalajara,2
+S131,U008,Cancun 081,Quintana Roo,2026-10-17,Guadalajara,5
+S132,U014,Los Cabos 046,Baja California Sur,2026-10-19,Guadalajara,1
+S133,U089,Tokio 053,Kanto,2026-01-06,Guadalajara,1
+S134,U040,Cancun 091,Quintana Roo,2026-10-11,Guadalajara,1
+S135,U118,Bangkok 039,Bangkok,2026-07-23,Guadalajara,1
+S136,U076,Paris,Ile de France,2026-01-16,Guadalajara,2
+S137,U023,Cusco 064,Cusco,2026-10-11,Guadalajara,5
+S138,U035,Paris 112,Ile de France,2026-09-30,Guadalajara,5
+S139,U019,Cusco 074,Cusco,2026-04-12,Guadalajara,4
+S140,U078,Los Cabos 016,Baja California Sur,2026-03-16,Guadalajara,2
+S141,U067,Roma 098,Lazio,2026-09-18,Guadalajara,1
+S142,U004,Tokio 013,Kanto,2026-02-08,Guadalajara,2
+S143,U067,Tokio 063,Kanto,2026-08-28,Guadalajara,5
+S144,U056,Cusco 104,Cusco,2026-02-01,Guadalajara,1
+S145,U088,Bangkok 099,Bangkok,2026-10-24,Guadalajara,3
+S146,U019,Paris 092,Ile de France,2026-05-02,Guadalajara,3
+S147,U036,Paris 022,Ile de France,2026-01-17,Guadalajara,3
+S148,U081,Tokio 013,Kanto,2026-10-26,Guadalajara,1
+S149,U045,Madrid 025,Madrid,2026-08-19,Guadalajara,5
+S150,U050,Tokio,Kanto,2026-01-28,Guadalajara,2
+S151,U114,Cancun 051,Quintana Roo,2026-10-26,Guadalajara,1
+S152,U057,Bariloche 007,Rio Negro,2026-11-14,Guadalajara,2
+S153,U032,Bangkok 029,Bangkok,2026-01-23,Guadalajara,2
+S154,U120,Los Cabos 076,Baja California Sur,2026-03-30,Guadalajara,3
+S155,U001,Los Cabos 116,Baja California Sur,2026-08-22,Guadalajara,3
+S156,U054,Roma 078,Lazio,2026-05-10,Guadalajara,4
+S157,U009,Paris 032,Ile de France,2026-07-19,Guadalajara,5
+S158,U029,Tokio 053,Kanto,2026-06-08,Guadalajara,4
+S159,U113,Paris 092,Ile de France,2026-09-06,Guadalajara,1
+S160,U102,Paris 112,Ile de France,2026-05-05,Guadalajara,1
+S161,U023,Paris 022,Ile de France,2026-07-03,Guadalajara,4
+S162,U024,Cancun,Quintana Roo,2026-05-29,Guadalajara,4
+S163,U072,Bariloche 047,Rio Negro,2026-02-28,Guadalajara,3
+S164,U069,Paris 112,Ile de France,2026-07-17,Guadalajara,3
+S165,U052,Cusco 084,Cusco,2026-02-03,Guadalajara,1
+S166,U055,Los Cabos 106,Baja California Sur,2026-06-29,Guadalajara,5
+S167,U032,Vancouver 050,British Columbia,2026-04-08,Guadalajara,4
+S168,U037,Madrid 045,Madrid,2026-05-02,Guadalajara,4
+S169,U005,Los Cabos 036,Baja California Sur,2026-01-13,Guadalajara,3
+S170,U104,Vancouver 020,British Columbia,2026-05-04,Guadalajara,2
+S171,U012,Los Cabos 026,Baja California Sur,2026-05-19,Guadalajara,5
+S172,U107,Cancun 101,Quintana Roo,2026-03-07,Guadalajara,5
+S173,U057,Vancouver 060,British Columbia,2026-05-03,Guadalajara,2
+S174,U048,Los Cabos 046,Baja California Sur,2026-04-21,Guadalajara,4
+S175,U049,Cancun 081,Quintana Roo,2026-10-25,Guadalajara,2
+S176,U039,Cancun 061,Quintana Roo,2026-09-16,Guadalajara,2
+S177,U030,Vancouver 110,British Columbia,2026-08-20,Guadalajara,2
+S178,U091,Cusco 034,Cusco,2026-11-02,Guadalajara,4
+S179,U076,Roma 048,Lazio,2026-10-01,Guadalajara,2
+S180,U052,Roma 078,Lazio,2026-09-19,Guadalajara,2

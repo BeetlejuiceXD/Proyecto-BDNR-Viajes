@@ -1,0 +1,181 @@
+reservation_id,user_id,user_name,destination_id,destination_name,hotel_id,hotel_name,id_flight,airline,booking_date,year,season,price,status
+R001,U098,Diego Ramirez 098,D026,Los Cabos 026,H026,Hotel Los Cabos 026,F001,Iberia,2026-09-29,2026,summer,28002,cancelled
+R002,U005,Maria Torres,D035,Madrid 035,H035,Hotel Madrid 035,F002,Aeromexico,2026-05-09,2026,spring,10208,active
+R003,U014,Fernando Lopez 014,D066,Los Cabos 066,H066,Hotel Los Cabos 066,F003,Viva,2026-08-17,2026,winter,41440,active
+R004,U026,Paola Perez 026,D089,Bangkok 089,H089,Hotel Bangkok 089,F004,Viva,2026-06-25,2026,summer,35522,confirmed
+R005,U021,Jorge Perez 021,D002,Paris,H003,Paris Centro Hotel,F005,Iberia,2026-08-09,2026,spring,14536,cancelled
+R006,U059,Fernando Diaz 059,D077,Bariloche 077,H077,Hotel Bariloche 077,F006,Iberia,2026-01-24,2026,summer,19324,confirmed
+R007,U042,Andres Ruiz 042,D034,Cusco 034,H034,Hotel Cusco 034,F007,Iberia,2026-10-08,2026,summer,11257,confirmed
+R008,U011,Paola Lopez 011,D024,Cusco 024,H024,Hotel Cusco 024,F008,Iberia,2026-07-15,2026,winter,27279,active
+R009,U105,Camila Ramirez 105,D065,Madrid 065,H065,Hotel Madrid 065,F009,Aeromexico,2026-05-16,2026,spring,18428,cancelled
+R010,U081,Jorge Garcia 081,D051,Cancun 051,H051,Hotel Cancun 051,F010,Iberia,2026-06-05,2026,summer,14536,active
+R011,U020,Maria Perez 020,D085,Madrid 085,H085,Hotel Madrid 085,F011,Iberia,2026-09-11,2026,fall,18486,confirmed
+R012,U073,Renata Torres 073,D094,Cusco 094,H094,Hotel Cusco 094,F012,ANA,2026-09-16,2026,spring,24069,confirmed
+R013,U107,Luis Flores 107,D018,Roma 018,H018,Hotel Roma 018,F013,Aeromexico,2026-07-12,2026,winter,12327,confirmed
+R014,U103,Renata Ramirez 103,D063,Tokio 063,H063,Hotel Tokio 063,F014,Aeromexico,2026-08-22,2026,spring,41962,active
+R015,U109,Carlos Flores 109,D096,Los Cabos 096,H096,Hotel Los Cabos 096,F015,Iberia,2026-02-08,2026,fall,24386,confirmed
+R016,U117,Andres Flores 117,D064,Cusco 064,H064,Hotel Cusco 064,F016,Aeromexico,2026-09-03,2026,fall,12063,active
+R017,U084,Valeria Garcia 084,D077,Bariloche 077,H077,Hotel Bariloche 077,F017,Iberia,2026-05-11,2026,fall,17745,confirmed
+R018,U087,Andres Garcia 087,D063,Tokio 063,H063,Hotel Tokio 063,F018,Aeromexico,2026-04-22,2026,winter,28061,active
+R019,U026,Paola Perez 026,D060,Vancouver 060,H060,Hotel Vancouver 060,F019,Aeromexico,2026-10-09,2026,fall,14626,cancelled
+R020,U035,Maria Ruiz 035,D059,Bangkok 059,H059,Hotel Bangkok 059,F020,ANA,2026-08-19,2026,winter,22751,confirmed
+R021,U078,Sofia Garcia 078,D019,Bangkok 019,H019,Hotel Bangkok 019,F021,Iberia,2026-03-09,2026,fall,16384,confirmed
+R022,U021,Jorge Perez 021,D115,Madrid 115,H115,Hotel Madrid 115,F022,Air France,2026-01-13,2026,spring,41223,cancelled
+R023,U049,Carlos Diaz 049,D094,Cusco 094,H094,Hotel Cusco 094,F023,Air France,2026-06-26,2026,fall,16923,confirmed
+R024,U119,Fernando Flores 119,D097,Bariloche 097,H097,Hotel Bariloche 097,F024,Air France,2026-03-03,2026,summer,9768,confirmed
+R025,U010,Miguel Lopez 010,D009,Bangkok 009,H009,Hotel Bangkok 009,F025,Air France,2026-10-29,2026,fall,37052,confirmed
+R026,U120,Camila Flores 120,D014,Cusco 014,H014,Hotel Cusco 014,F026,Iberia,2026-11-22,2026,summer,25339,confirmed
+R027,U104,Fernando Ramirez 104,D025,Madrid 025,H025,Hotel Madrid 025,F027,Air France,2026-01-15,2026,winter,44994,confirmed
+R028,U097,Lucia Ramirez 097,D120,Vancouver 120,H120,Hotel Vancouver 120,F028,Air France,2026-11-11,2026,summer,27756,cancelled
+R029,U037,Lucia Ruiz 037,D022,Paris 022,H022,Hotel Paris 022,F029,Air France,2026-06-25,2026,fall,25760,confirmed
+R030,U016,Ana Perez 016,D039,Bangkok 039,H039,Hotel Bangkok 039,F030,ANA,2026-07-21,2026,summer,19594,confirmed
+R031,U098,Diego Ramirez 098,D071,Cancun 071,H071,Hotel Cancun 071,F031,Air France,2026-06-20,2026,winter,37011,confirmed
+R032,U072,Andres Torres 072,D032,Paris 032,H032,Hotel Paris 032,F032,Viva,2026-06-25,2026,spring,29924,confirmed
+R033,U050,Maria Diaz 050,D104,Cusco 104,H104,Hotel Cusco 104,F033,Aeromexico,2026-07-31,2026,winter,43351,confirmed
+R034,U074,Fernando Torres 074,D044,Cusco 044,H044,Hotel Cusco 044,F034,Air France,2026-05-23,2026,fall,17249,active
+R035,U052,Lucia Diaz 052,D012,Paris 012,H012,Hotel Paris 012,F035,Viva,2026-07-16,2026,winter,37300,confirmed
+R036,U063,Sofia Torres 063,D005,Madrid,H006,Madrid Plaza,F036,Air France,2026-10-28,2026,spring,13793,cancelled
+R037,U020,Maria Perez 020,D058,Roma 058,H058,Hotel Roma 058,F037,Aeromexico,2026-04-25,2026,summer,43233,confirmed
+R038,U030,Camila Perez 030,D071,Cancun 071,H071,Hotel Cancun 071,F038,Aeromexico,2026-03-06,2026,spring,28908,confirmed
+R039,U039,Valeria Ruiz 039,D090,Vancouver 090,H090,Hotel Vancouver 090,F039,Aeromexico,2026-02-06,2026,summer,34433,confirmed
+R040,U041,Paola Ruiz 041,D002,Paris,H003,Paris Centro Hotel,F040,Air France,2026-05-23,2026,summer,40149,active
+R041,U003,Sofia Ruiz,D004,Cusco,H005,Cusco Andes Lodge,F041,Iberia,2026-01-29,2026,summer,41657,cancelled
+R042,U064,Carlos Torres 064,D030,Vancouver 030,H030,Hotel Vancouver 030,F042,Iberia,2026-04-27,2026,spring,31154,cancelled
+R043,U009,Valeria Lopez 009,D026,Los Cabos 026,H026,Hotel Los Cabos 026,F043,Iberia,2026-09-16,2026,summer,41485,confirmed
+R044,U098,Diego Ramirez 098,D030,Vancouver 030,H030,Hotel Vancouver 030,F044,Viva,2026-05-16,2026,fall,16143,active
+R045,U117,Andres Flores 117,D115,Madrid 115,H115,Hotel Madrid 115,F045,Air France,2026-08-02,2026,spring,18593,cancelled
+R046,U091,Ana Ramirez 091,D004,Cusco,H005,Cusco Andes Lodge,F046,Air France,2026-01-27,2026,spring,21065,cancelled
+R047,U043,Renata Ruiz 043,D094,Cusco 094,H094,Hotel Cusco 094,F047,Aeromexico,2026-03-26,2026,summer,21157,active
+R048,U057,Andres Diaz 057,D040,Vancouver 040,H040,Hotel Vancouver 040,F048,Iberia,2026-06-19,2026,summer,16140,confirmed
+R049,U072,Andres Torres 072,D011,Cancun 011,H011,Hotel Cancun 011,F049,Air France,2026-03-05,2026,summer,33912,confirmed
+R050,U048,Sofia Diaz 048,D012,Paris 012,H012,Hotel Paris 012,F050,Air France,2026-04-11,2026,winter,21650,confirmed
+R051,U099,Valeria Ramirez 099,D004,Cusco,H005,Cusco Andes Lodge,F051,Viva,2026-11-17,2026,winter,11664,cancelled
+R052,U096,Jorge Ramirez 096,D009,Bangkok 009,H009,Hotel Bangkok 009,F052,Iberia,2026-04-10,2026,spring,31221,confirmed
+R053,U119,Fernando Flores 119,D079,Bangkok 079,H079,Hotel Bangkok 079,F053,Iberia,2026-06-12,2026,fall,28490,confirmed
+R054,U092,Luis Ramirez 092,D004,Cusco,H005,Cusco Andes Lodge,F054,Aeromexico,2026-09-01,2026,winter,34330,confirmed
+R055,U103,Renata Ramirez 103,D017,Bariloche 017,H017,Hotel Bariloche 017,F055,Viva,2026-01-05,2026,fall,18916,active
+R056,U101,Paola Ramirez 101,D111,Cancun 111,H111,Hotel Cancun 111,F056,Air France,2026-07-05,2026,spring,42546,confirmed
+R057,U062,Luis Torres 062,D032,Paris 032,H032,Hotel Paris 032,F057,Aeromexico,2026-01-18,2026,fall,19531,cancelled
+R058,U054,Valeria Diaz 054,D034,Cusco 034,H034,Hotel Cusco 034,F058,Viva,2026-02-19,2026,winter,38292,confirmed
+R059,U096,Jorge Ramirez 096,D054,Cusco 054,H054,Hotel Cusco 054,F059,ANA,2026-05-01,2026,spring,28262,confirmed
+R060,U057,Andres Diaz 057,D048,Roma 048,H048,Hotel Roma 048,F060,Iberia,2026-04-12,2026,summer,21172,confirmed
+R061,U051,Jorge Diaz 051,D037,Bariloche 037,H037,Hotel Bariloche 037,F061,Iberia,2026-02-03,2026,fall,25118,active
+R062,U014,Fernando Lopez 014,D084,Cusco 084,H084,Hotel Cusco 084,F062,Air France,2026-01-19,2026,spring,40114,confirmed
+R063,U007,Lucia Lopez 007,D006,Los Cabos,H002,Resort Mar Azul,F063,Viva,2026-03-03,2026,summer,21724,confirmed
+R064,U082,Lucia Garcia 082,D058,Roma 058,H058,Hotel Roma 058,F064,Aeromexico,2026-02-24,2026,fall,23263,confirmed
+R065,U005,Maria Torres,D019,Bangkok 019,H019,Hotel Bangkok 019,F065,Viva,2026-05-11,2026,summer,9745,confirmed
+R066,U005,Maria Torres,D024,Cusco 024,H024,Hotel Cusco 024,F066,Aeromexico,2026-04-15,2026,winter,44916,cancelled
+R067,U082,Lucia Garcia 082,D013,Tokio 013,H013,Hotel Tokio 013,F067,ANA,2026-03-21,2026,spring,19727,cancelled
+R068,U040,Miguel Ruiz 040,D037,Bariloche 037,H037,Hotel Bariloche 037,F068,Air France,2026-01-27,2026,fall,36137,cancelled
+R069,U027,Andres Perez 027,D083,Tokio 083,H083,Hotel Tokio 083,F069,Air France,2026-07-27,2026,spring,37453,confirmed
+R070,U114,Valeria Flores 114,D106,Los Cabos 106,H106,Hotel Los Cabos 106,F070,Air France,2026-10-23,2026,fall,39205,confirmed
+R071,U074,Fernando Torres 074,D007,Bariloche 007,H007,Hotel Bariloche 007,F071,Air France,2026-02-15,2026,fall,42060,confirmed
+R072,U119,Fernando Flores 119,D037,Bariloche 037,H037,Hotel Bariloche 037,F072,ANA,2026-03-29,2026,spring,16129,cancelled
+R073,U041,Paola Ruiz 041,D039,Bangkok 039,H039,Hotel Bangkok 039,F073,Aeromexico,2026-09-05,2026,spring,34421,confirmed
+R074,U079,Carlos Garcia 079,D082,Paris 082,H082,Hotel Paris 082,F074,ANA,2026-07-27,2026,summer,39995,confirmed
+R075,U050,Maria Diaz 050,D006,Los Cabos,H002,Resort Mar Azul,F075,ANA,2026-03-22,2026,fall,17064,confirmed
+R076,U050,Maria Diaz 050,D006,Los Cabos,H002,Resort Mar Azul,F076,Iberia,2026-03-02,2026,winter,29068,cancelled
+R077,U065,Maria Torres 065,D055,Madrid 055,H055,Hotel Madrid 055,F077,Iberia,2026-08-17,2026,winter,20715,confirmed
+R078,U100,Miguel Ramirez 100,D060,Vancouver 060,H060,Hotel Vancouver 060,F078,Air France,2026-11-13,2026,winter,20768,cancelled
+R079,U047,Luis Diaz 047,D009,Bangkok 009,H009,Hotel Bangkok 009,F079,Iberia,2026-08-09,2026,spring,37964,active
+R080,U100,Miguel Ramirez 100,D006,Los Cabos,H002,Resort Mar Azul,F080,Aeromexico,2026-06-10,2026,spring,12556,active
+R081,U025,Miguel Perez 025,D004,Cusco,H005,Cusco Andes Lodge,F081,ANA,2026-02-26,2026,summer,41235,confirmed
+R082,U021,Jorge Perez 021,D009,Bangkok 009,H009,Hotel Bangkok 009,F082,ANA,2026-05-10,2026,fall,27021,cancelled
+R083,U034,Carlos Ruiz 034,D065,Madrid 065,H065,Hotel Madrid 065,F083,Viva,2026-10-31,2026,summer,29911,confirmed
+R084,U120,Camila Flores 120,D024,Cusco 024,H024,Hotel Cusco 024,F084,Viva,2026-11-22,2026,fall,30484,cancelled
+R085,U072,Andres Torres 072,D015,Madrid 015,H015,Hotel Madrid 015,F085,Iberia,2026-08-20,2026,spring,25517,active
+R086,U019,Carlos Perez 019,D034,Cusco 034,H034,Hotel Cusco 034,F086,Iberia,2026-10-23,2026,fall,30681,confirmed
+R087,U033,Sofia Ruiz 033,D023,Tokio 023,H023,Hotel Tokio 023,F087,Iberia,2026-09-22,2026,fall,29489,confirmed
+R088,U056,Paola Diaz 056,D020,Vancouver 020,H020,Hotel Vancouver 020,F088,ANA,2026-11-17,2026,winter,42598,confirmed
+R089,U003,Sofia Ruiz,D063,Tokio 063,H063,Hotel Tokio 063,F089,ANA,2026-01-24,2026,spring,9171,active
+R090,U053,Diego Diaz 053,D014,Cusco 014,H014,Hotel Cusco 014,F090,ANA,2026-04-25,2026,fall,17763,confirmed
+R091,U091,Ana Ramirez 091,D021,Cancun 021,H021,Hotel Cancun 021,F091,Aeromexico,2026-05-05,2026,summer,38547,confirmed
+R092,U002,Luis Perez,D112,Paris 112,H112,Hotel Paris 112,F092,Air France,2026-05-16,2026,spring,31959,active
+R093,U116,Paola Flores 116,D078,Roma 078,H078,Hotel Roma 078,F093,Viva,2026-03-26,2026,spring,11883,confirmed
+R094,U008,Diego Lopez 008,D052,Paris 052,H052,Hotel Paris 052,F094,Viva,2026-03-23,2026,spring,9809,active
+R095,U078,Sofia Garcia 078,D019,Bangkok 019,H019,Hotel Bangkok 019,F095,Viva,2026-09-23,2026,winter,20445,active
+R096,U001,Ana Lopez,D039,Bangkok 039,H039,Hotel Bangkok 039,F096,Air France,2026-10-03,2026,winter,37616,cancelled
+R097,U030,Camila Perez 030,D023,Tokio 023,H023,Hotel Tokio 023,F097,Aeromexico,2026-05-14,2026,spring,17078,confirmed
+R098,U038,Diego Ruiz 038,D035,Madrid 035,H035,Hotel Madrid 035,F098,ANA,2026-05-16,2026,summer,14598,active
+R099,U096,Jorge Ramirez 096,D034,Cusco 034,H034,Hotel Cusco 034,F099,Viva,2026-03-23,2026,fall,21578,cancelled
+R100,U090,Camila Garcia 090,D049,Bangkok 049,H049,Hotel Bangkok 049,F100,Air France,2026-09-29,2026,spring,10737,cancelled
+R101,U075,Camila Torres 075,D102,Paris 102,H102,Hotel Paris 102,F101,Air France,2026-11-15,2026,spring,20242,confirmed
+R102,U045,Camila Ruiz 045,D015,Madrid 015,H015,Hotel Madrid 015,F102,ANA,2026-03-24,2026,summer,10883,confirmed
+R103,U009,Valeria Lopez 009,D089,Bangkok 089,H089,Hotel Bangkok 089,F103,Aeromexico,2026-01-24,2026,fall,22062,active
+R104,U015,Camila Lopez 015,D014,Cusco 014,H014,Hotel Cusco 014,F104,Viva,2026-04-15,2026,spring,11256,confirmed
+R105,U027,Andres Perez 027,D013,Tokio 013,H013,Hotel Tokio 013,F105,Aeromexico,2026-11-27,2026,fall,29915,confirmed
+R106,U007,Lucia Lopez 007,D003,Tokio,H004,Tokio Garden Inn,F106,Iberia,2026-05-25,2026,fall,30025,active
+R107,U101,Paola Ramirez 101,D109,Bangkok 109,H109,Hotel Bangkok 109,F107,ANA,2026-01-16,2026,winter,11047,cancelled
+R108,U073,Renata Torres 073,D045,Madrid 045,H045,Hotel Madrid 045,F108,Aeromexico,2026-10-03,2026,summer,14956,active
+R109,U037,Lucia Ruiz 037,D056,Los Cabos 056,H056,Hotel Los Cabos 056,F109,ANA,2026-04-14,2026,spring,9285,confirmed
+R110,U045,Camila Ruiz 045,D063,Tokio 063,H063,Hotel Tokio 063,F110,Air France,2026-10-31,2026,fall,19413,confirmed
+R111,U099,Valeria Ramirez 099,D064,Cusco 064,H064,Hotel Cusco 064,F111,Aeromexico,2026-11-22,2026,spring,41131,active
+R112,U115,Miguel Flores 115,D046,Los Cabos 046,H046,Hotel Los Cabos 046,F112,Air France,2026-07-22,2026,spring,36664,confirmed
+R113,U065,Maria Torres 065,D039,Bangkok 039,H039,Hotel Bangkok 039,F113,Air France,2026-10-07,2026,summer,33858,confirmed
+R114,U042,Andres Ruiz 042,D069,Bangkok 069,H069,Hotel Bangkok 069,F114,Iberia,2026-10-25,2026,summer,38511,active
+R115,U030,Camila Perez 030,D060,Vancouver 060,H060,Hotel Vancouver 060,F115,Iberia,2026-10-24,2026,summer,30892,cancelled
+R116,U093,Sofia Ramirez 093,D035,Madrid 035,H035,Hotel Madrid 035,F116,ANA,2026-03-21,2026,summer,25225,confirmed
+R117,U034,Carlos Ruiz 034,D021,Cancun 021,H021,Hotel Cancun 021,F117,Iberia,2026-04-07,2026,spring,19787,confirmed
+R118,U056,Paola Diaz 056,D020,Vancouver 020,H020,Hotel Vancouver 020,F118,Iberia,2026-06-02,2026,fall,21857,confirmed
+R119,U002,Luis Perez,D027,Bariloche 027,H027,Hotel Bariloche 027,F119,Air France,2026-01-18,2026,winter,37608,confirmed
+R120,U078,Sofia Garcia 078,D060,Vancouver 060,H060,Hotel Vancouver 060,F120,Viva,2026-05-12,2026,winter,9361,confirmed
+R121,U087,Andres Garcia 087,D109,Bangkok 109,H109,Hotel Bangkok 109,F121,ANA,2026-04-28,2026,summer,17140,cancelled
+R122,U101,Paola Ramirez 101,D034,Cusco 034,H034,Hotel Cusco 034,F122,Air France,2026-05-05,2026,winter,19253,confirmed
+R123,U067,Lucia Torres 067,D059,Bangkok 059,H059,Hotel Bangkok 059,F123,ANA,2026-07-29,2026,summer,30499,confirmed
+R124,U070,Miguel Torres 070,D117,Bariloche 117,H117,Hotel Bariloche 117,F124,Aeromexico,2026-05-09,2026,summer,19540,confirmed
+R125,U092,Luis Ramirez 092,D013,Tokio 013,H013,Hotel Tokio 013,F125,ANA,2026-04-15,2026,winter,42566,confirmed
+R126,U051,Jorge Diaz 051,D053,Tokio 053,H053,Hotel Tokio 053,F126,Viva,2026-04-05,2026,spring,32296,confirmed
+R127,U010,Miguel Lopez 010,D049,Bangkok 049,H049,Hotel Bangkok 049,F127,Aeromexico,2026-01-07,2026,winter,36560,confirmed
+R128,U068,Diego Torres 068,D014,Cusco 014,H014,Hotel Cusco 014,F128,Iberia,2026-07-25,2026,summer,34687,cancelled
+R129,U083,Diego Garcia 083,D017,Bariloche 017,H017,Hotel Bariloche 017,F129,Viva,2026-08-29,2026,summer,18585,confirmed
+R130,U101,Paola Ramirez 101,D038,Roma 038,H038,Hotel Roma 038,F130,Air France,2026-07-01,2026,summer,26525,cancelled
+R131,U104,Fernando Ramirez 104,D087,Bariloche 087,H087,Hotel Bariloche 087,F131,Air France,2026-01-02,2026,fall,32460,confirmed
+R132,U082,Lucia Garcia 082,D062,Paris 062,H062,Hotel Paris 062,F132,Air France,2026-11-16,2026,spring,32752,confirmed
+R133,U101,Paola Ramirez 101,D008,Roma 008,H008,Hotel Roma 008,F133,ANA,2026-06-16,2026,summer,43776,confirmed
+R134,U084,Valeria Garcia 084,D085,Madrid 085,H085,Hotel Madrid 085,F134,Viva,2026-02-06,2026,fall,25385,active
+R135,U045,Camila Ruiz 045,D110,Vancouver 110,H110,Hotel Vancouver 110,F135,Viva,2026-08-20,2026,summer,22666,cancelled
+R136,U108,Sofia Flores 108,D079,Bangkok 079,H079,Hotel Bangkok 079,F136,ANA,2026-11-22,2026,fall,21934,cancelled
+R137,U016,Ana Perez 016,D095,Madrid 095,H095,Hotel Madrid 095,F137,Aeromexico,2026-10-12,2026,fall,36462,confirmed
+R138,U116,Paola Flores 116,D064,Cusco 064,H064,Hotel Cusco 064,F138,Air France,2026-08-28,2026,summer,41202,confirmed
+R139,U060,Camila Diaz 060,D070,Vancouver 070,H070,Hotel Vancouver 070,F139,Viva,2026-06-14,2026,winter,28452,cancelled
+R140,U047,Luis Diaz 047,D054,Cusco 054,H054,Hotel Cusco 054,F140,Viva,2026-11-23,2026,spring,10347,active
+R141,U063,Sofia Torres 063,D104,Cusco 104,H104,Hotel Cusco 104,F141,ANA,2026-09-05,2026,summer,11221,confirmed
+R142,U061,Ana Torres 061,D044,Cusco 044,H044,Hotel Cusco 044,F142,Iberia,2026-06-24,2026,summer,27622,cancelled
+R143,U046,Ana Diaz 046,D033,Tokio 033,H033,Hotel Tokio 033,F143,Iberia,2026-05-30,2026,winter,35458,confirmed
+R144,U102,Andres Ramirez 102,D112,Paris 112,H112,Hotel Paris 112,F144,Viva,2026-09-10,2026,spring,30685,confirmed
+R145,U093,Sofia Ramirez 093,D017,Bariloche 017,H017,Hotel Bariloche 017,F145,Aeromexico,2026-07-24,2026,winter,44743,active
+R146,U025,Miguel Perez 025,D039,Bangkok 039,H039,Hotel Bangkok 039,F146,Aeromexico,2026-01-24,2026,winter,12941,active
+R147,U028,Renata Perez 028,D079,Bangkok 079,H079,Hotel Bangkok 079,F147,ANA,2026-02-12,2026,spring,39007,confirmed
+R148,U118,Renata Flores 118,D112,Paris 112,H112,Hotel Paris 112,F148,Air France,2026-02-21,2026,spring,33174,confirmed
+R149,U005,Maria Torres,D111,Cancun 111,H111,Hotel Cancun 111,F149,Viva,2026-08-04,2026,fall,10336,cancelled
+R150,U074,Fernando Torres 074,D064,Cusco 064,H064,Hotel Cusco 064,F150,Aeromexico,2026-08-04,2026,winter,38259,confirmed
+R151,U071,Paola Torres 071,D077,Bariloche 077,H077,Hotel Bariloche 077,F151,Air France,2026-07-31,2026,spring,14434,cancelled
+R152,U002,Luis Perez,D081,Cancun 081,H081,Hotel Cancun 081,F152,Air France,2026-01-03,2026,spring,14776,confirmed
+R153,U032,Luis Ruiz 032,D061,Cancun 061,H061,Hotel Cancun 061,F153,Iberia,2026-10-19,2026,winter,21282,confirmed
+R154,U072,Andres Torres 072,D094,Cusco 094,H094,Hotel Cusco 094,F154,Iberia,2026-11-18,2026,winter,39184,confirmed
+R155,U011,Paola Lopez 011,D002,Paris,H003,Paris Centro Hotel,F155,Aeromexico,2026-11-13,2026,winter,29385,confirmed
+R156,U041,Paola Ruiz 041,D111,Cancun 111,H111,Hotel Cancun 111,F156,ANA,2026-01-31,2026,fall,37752,cancelled
+R157,U021,Jorge Perez 021,D103,Tokio 103,H103,Hotel Tokio 103,F157,Iberia,2026-11-27,2026,winter,40258,cancelled
+R158,U008,Diego Lopez 008,D101,Cancun 101,H101,Hotel Cancun 101,F158,Iberia,2026-05-24,2026,fall,10015,confirmed
+R159,U050,Maria Diaz 050,D075,Madrid 075,H075,Hotel Madrid 075,F159,Viva,2026-07-12,2026,winter,24358,cancelled
+R160,U021,Jorge Perez 021,D042,Paris 042,H042,Hotel Paris 042,F160,Iberia,2026-08-05,2026,spring,27908,confirmed
+R161,U011,Paola Lopez 011,D036,Los Cabos 036,H036,Hotel Los Cabos 036,F161,Iberia,2026-10-01,2026,winter,34017,confirmed
+R162,U091,Ana Ramirez 091,D078,Roma 078,H078,Hotel Roma 078,F162,Air France,2026-08-27,2026,summer,25694,active
+R163,U099,Valeria Ramirez 099,D059,Bangkok 059,H059,Hotel Bangkok 059,F163,ANA,2026-07-01,2026,spring,24261,cancelled
+R164,U076,Ana Garcia 076,D114,Cusco 114,H114,Hotel Cusco 114,F164,Air France,2026-09-17,2026,summer,21396,confirmed
+R165,U073,Renata Torres 073,D024,Cusco 024,H024,Hotel Cusco 024,F165,Iberia,2026-10-23,2026,fall,35377,active
+R166,U048,Sofia Diaz 048,D006,Los Cabos,H002,Resort Mar Azul,F166,Iberia,2026-02-24,2026,winter,14356,confirmed
+R167,U003,Sofia Ruiz,D045,Madrid 045,H045,Hotel Madrid 045,F167,ANA,2026-11-07,2026,spring,11200,confirmed
+R168,U055,Miguel Diaz 055,D076,Los Cabos 076,H076,Hotel Los Cabos 076,F168,Iberia,2026-05-24,2026,spring,38285,active
+R169,U024,Valeria Perez 024,D033,Tokio 033,H033,Hotel Tokio 033,F169,Iberia,2026-04-13,2026,winter,14482,confirmed
+R170,U109,Carlos Flores 109,D072,Paris 072,H072,Hotel Paris 072,F170,Air France,2026-09-07,2026,spring,35043,confirmed
+R171,U051,Jorge Diaz 051,D041,Cancun 041,H041,Hotel Cancun 041,F171,Aeromexico,2026-09-17,2026,summer,38382,confirmed
+R172,U033,Sofia Ruiz 033,D093,Tokio 093,H093,Hotel Tokio 093,F172,Viva,2026-01-20,2026,fall,12884,active
+R173,U019,Carlos Perez 019,D034,Cusco 034,H034,Hotel Cusco 034,F173,Aeromexico,2026-02-21,2026,fall,9378,confirmed
+R174,U048,Sofia Diaz 048,D098,Roma 098,H098,Hotel Roma 098,F174,Air France,2026-06-15,2026,fall,34562,confirmed
+R175,U104,Fernando Ramirez 104,D049,Bangkok 049,H049,Hotel Bangkok 049,F175,Air France,2026-05-03,2026,summer,9826,cancelled
+R176,U111,Jorge Flores 111,D021,Cancun 021,H021,Hotel Cancun 021,F176,Aeromexico,2026-11-13,2026,fall,18159,cancelled
+R177,U044,Fernando Ruiz 044,D108,Roma 108,H108,Hotel Roma 108,F177,Aeromexico,2026-08-20,2026,fall,24327,cancelled
+R178,U024,Valeria Perez 024,D019,Bangkok 019,H019,Hotel Bangkok 019,F178,Viva,2026-01-30,2026,winter,18483,cancelled
+R179,U004,Carlos Diaz,D054,Cusco 054,H054,Hotel Cusco 054,F179,Viva,2026-03-21,2026,fall,28434,confirmed
+R180,U116,Paola Flores 116,D063,Tokio 063,H063,Hotel Tokio 063,F180,Iberia,2026-08-22,2026,winter,16482,confirmed

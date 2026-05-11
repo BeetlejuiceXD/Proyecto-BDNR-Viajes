@@ -1,0 +1,121 @@
+destination_id,destination_name,location,country,code,region,category
+D001,Cancun,Quintana Roo,Mexico,MX,America Norte,playa
+D002,Paris,Ile de France,Francia,FR,Europa,ciudad
+D003,Tokio,Kanto,Japon,JP,Asia,ciudad
+D004,Cusco,Cusco,Peru,PE,America Sur,montana
+D005,Madrid,Madrid,Espana,ES,Europa,ciudad
+D006,Los Cabos,Baja California Sur,Mexico,MX,America Norte,playa
+D007,Bariloche 007,Rio Negro,Argentina,AR,America Sur,montana
+D008,Roma 008,Lazio,Italia,IT,Europa,ciudad
+D009,Bangkok 009,Bangkok,Tailandia,TH,Asia,ciudad
+D010,Vancouver 010,British Columbia,Canada,CA,America Norte,naturaleza
+D011,Cancun 011,Quintana Roo,Mexico,MX,America Norte,playa
+D012,Paris 012,Ile de France,Francia,FR,Europa,ciudad
+D013,Tokio 013,Kanto,Japon,JP,Asia,ciudad
+D014,Cusco 014,Cusco,Peru,PE,America Sur,montana
+D015,Madrid 015,Madrid,Espana,ES,Europa,ciudad
+D016,Los Cabos 016,Baja California Sur,Mexico,MX,America Norte,playa
+D017,Bariloche 017,Rio Negro,Argentina,AR,America Sur,montana
+D018,Roma 018,Lazio,Italia,IT,Europa,ciudad
+D019,Bangkok 019,Bangkok,Tailandia,TH,Asia,ciudad
+D020,Vancouver 020,British Columbia,Canada,CA,America Norte,naturaleza
+D021,Cancun 021,Quintana Roo,Mexico,MX,America Norte,playa
+D022,Paris 022,Ile de France,Francia,FR,Europa,ciudad
+D023,Tokio 023,Kanto,Japon,JP,Asia,ciudad
+D024,Cusco 024,Cusco,Peru,PE,America Sur,montana
+D025,Madrid 025,Madrid,Espana,ES,Europa,ciudad
+D026,Los Cabos 026,Baja California Sur,Mexico,MX,America Norte,playa
+D027,Bariloche 027,Rio Negro,Argentina,AR,America Sur,montana
+D028,Roma 028,Lazio,Italia,IT,Europa,ciudad
+D029,Bangkok 029,Bangkok,Tailandia,TH,Asia,ciudad
+D030,Vancouver 030,British Columbia,Canada,CA,America Norte,naturaleza
+D031,Cancun 031,Quintana Roo,Mexico,MX,America Norte,playa
+D032,Paris 032,Ile de France,Francia,FR,Europa,ciudad
+D033,Tokio 033,Kanto,Japon,JP,Asia,ciudad
+D034,Cusco 034,Cusco,Peru,PE,America Sur,montana
+D035,Madrid 035,Madrid,Espana,ES,Europa,ciudad
+D036,Los Cabos 036,Baja California Sur,Mexico,MX,America Norte,playa
+D037,Bariloche 037,Rio Negro,Argentina,AR,America Sur,montana
+D038,Roma 038,Lazio,Italia,IT,Europa,ciudad
+D039,Bangkok 039,Bangkok,Tailandia,TH,Asia,ciudad
+D040,Vancouver 040,British Columbia,Canada,CA,America Norte,naturaleza
+D041,Cancun 041,Quintana Roo,Mexico,MX,America Norte,playa
+D042,Paris 042,Ile de France,Francia,FR,Europa,ciudad
+D043,Tokio 043,Kanto,Japon,JP,Asia,ciudad
+D044,Cusco 044,Cusco,Peru,PE,America Sur,montana
+D045,Madrid 045,Madrid,Espana,ES,Europa,ciudad
+D046,Los Cabos 046,Baja California Sur,Mexico,MX,America Norte,playa
+D047,Bariloche 047,Rio Negro,Argentina,AR,America Sur,montana
+D048,Roma 048,Lazio,Italia,IT,Europa,ciudad
+D049,Bangkok 049,Bangkok,Tailandia,TH,Asia,ciudad
+D050,Vancouver 050,British Columbia,Canada,CA,America Norte,naturaleza
+D051,Cancun 051,Quintana Roo,Mexico,MX,America Norte,playa
+D052,Paris 052,Ile de France,Francia,FR,Europa,ciudad
+D053,Tokio 053,Kanto,Japon,JP,Asia,ciudad
+D054,Cusco 054,Cusco,Peru,PE,America Sur,montana
+D055,Madrid 055,Madrid,Espana,ES,Europa,ciudad
+D056,Los Cabos 056,Baja California Sur,Mexico,MX,America Norte,playa
+D057,Bariloche 057,Rio Negro,Argentina,AR,America Sur,montana
+D058,Roma 058,Lazio,Italia,IT,Europa,ciudad
+D059,Bangkok 059,Bangkok,Tailandia,TH,Asia,ciudad
+D060,Vancouver 060,British Columbia,Canada,CA,America Norte,naturaleza
+D061,Cancun 061,Quintana Roo,Mexico,MX,America Norte,playa
+D062,Paris 062,Ile de France,Francia,FR,Europa,ciudad
+D063,Tokio 063,Kanto,Japon,JP,Asia,ciudad
+D064,Cusco 064,Cusco,Peru,PE,America Sur,montana
+D065,Madrid 065,Madrid,Espana,ES,Europa,ciudad
+D066,Los Cabos 066,Baja California Sur,Mexico,MX,America Norte,playa
+D067,Bariloche 067,Rio Negro,Argentina,AR,America Sur,montana
+D068,Roma 068,Lazio,Italia,IT,Europa,ciudad
+D069,Bangkok 069,Bangkok,Tailandia,TH,Asia,ciudad
+D070,Vancouver 070,British Columbia,Canada,CA,America Norte,naturaleza
+D071,Cancun 071,Quintana Roo,Mexico,MX,America Norte,playa
+D072,Paris 072,Ile de France,Francia,FR,Europa,ciudad
+D073,Tokio 073,Kanto,Japon,JP,Asia,ciudad
+D074,Cusco 074,Cusco,Peru,PE,America Sur,montana
+D075,Madrid 075,Madrid,Espana,ES,Europa,ciudad
+D076,Los Cabos 076,Baja California Sur,Mexico,MX,America Norte,playa
+D077,Bariloche 077,Rio Negro,Argentina,AR,America Sur,montana
+D078,Roma 078,Lazio,Italia,IT,Europa,ciudad
+D079,Bangkok 079,Bangkok,Tailandia,TH,Asia,ciudad
+D080,Vancouver 080,British Columbia,Canada,CA,America Norte,naturaleza
+D081,Cancun 081,Quintana Roo,Mexico,MX,America Norte,playa
+D082,Paris 082,Ile de France,Francia,FR,Europa,ciudad
+D083,Tokio 083,Kanto,Japon,JP,Asia,ciudad
+D084,Cusco 084,Cusco,Peru,PE,America Sur,montana
+D085,Madrid 085,Madrid,Espana,ES,Europa,ciudad
+D086,Los Cabos 086,Baja California Sur,Mexico,MX,America Norte,playa
+D087,Bariloche 087,Rio Negro,Argentina,AR,America Sur,montana
+D088,Roma 088,Lazio,Italia,IT,Europa,ciudad
+D089,Bangkok 089,Bangkok,Tailandia,TH,Asia,ciudad
+D090,Vancouver 090,British Columbia,Canada,CA,America Norte,naturaleza
+D091,Cancun 091,Quintana Roo,Mexico,MX,America Norte,playa
+D092,Paris 092,Ile de France,Francia,FR,Europa,ciudad
+D093,Tokio 093,Kanto,Japon,JP,Asia,ciudad
+D094,Cusco 094,Cusco,Peru,PE,America Sur,montana
+D095,Madrid 095,Madrid,Espana,ES,Europa,ciudad
+D096,Los Cabos 096,Baja California Sur,Mexico,MX,America Norte,playa
+D097,Bariloche 097,Rio Negro,Argentina,AR,America Sur,montana
+D098,Roma 098,Lazio,Italia,IT,Europa,ciudad
+D099,Bangkok 099,Bangkok,Tailandia,TH,Asia,ciudad
+D100,Vancouver 100,British Columbia,Canada,CA,America Norte,naturaleza
+D101,Cancun 101,Quintana Roo,Mexico,MX,America Norte,playa
+D102,Paris 102,Ile de France,Francia,FR,Europa,ciudad
+D103,Tokio 103,Kanto,Japon,JP,Asia,ciudad
+D104,Cusco 104,Cusco,Peru,PE,America Sur,montana
+D105,Madrid 105,Madrid,Espana,ES,Europa,ciudad
+D106,Los Cabos 106,Baja California Sur,Mexico,MX,America Norte,playa
+D107,Bariloche 107,Rio Negro,Argentina,AR,America Sur,montana
+D108,Roma 108,Lazio,Italia,IT,Europa,ciudad
+D109,Bangkok 109,Bangkok,Tailandia,TH,Asia,ciudad
+D110,Vancouver 110,British Columbia,Canada,CA,America Norte,naturaleza
+D111,Cancun 111,Quintana Roo,Mexico,MX,America Norte,playa
+D112,Paris 112,Ile de France,Francia,FR,Europa,ciudad
+D113,Tokio 113,Kanto,Japon,JP,Asia,ciudad
+D114,Cusco 114,Cusco,Peru,PE,America Sur,montana
+D115,Madrid 115,Madrid,Espana,ES,Europa,ciudad
+D116,Los Cabos 116,Baja California Sur,Mexico,MX,America Norte,playa
+D117,Bariloche 117,Rio Negro,Argentina,AR,America Sur,montana
+D118,Roma 118,Lazio,Italia,IT,Europa,ciudad
+D119,Bangkok 119,Bangkok,Tailandia,TH,Asia,ciudad
+D120,Vancouver 120,British Columbia,Canada,CA,America Norte,naturaleza

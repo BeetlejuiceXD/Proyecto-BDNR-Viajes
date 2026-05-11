@@ -1,0 +1,121 @@
+hotel_id,hotel_name,destination_id,destination_name,location,country,rating,price,price_range,available_rooms
+H001,Hotel Sol Cancun,D001,Cancun,Quintana Roo,Mexico,4.6,2200,medium,12
+H002,Resort Mar Azul,D006,Los Cabos,Baja California Sur,Mexico,4.8,5200,luxury,5
+H003,Paris Centro Hotel,D002,Paris,Ile de France,Francia,4.5,3100,high,8
+H004,Tokio Garden Inn,D003,Tokio,Kanto,Japon,4.3,1800,medium,10
+H005,Cusco Andes Lodge,D004,Cusco,Cusco,Peru,4.7,1400,low,14
+H006,Madrid Plaza,D005,Madrid,Madrid,Espana,4.4,2100,medium,7
+H007,Hotel Bariloche 007,D007,Bariloche 007,Rio Negro,Argentina,4.9,3852,medium,29
+H008,Hotel Roma 008,D008,Roma 008,Lazio,Italia,3.7,6532,luxury,38
+H009,Hotel Bangkok 009,D009,Bangkok 009,Bangkok,Tailandia,4.1,1971,medium,7
+H010,Hotel Vancouver 010,D010,Vancouver 010,British Columbia,Canada,3.9,5356,high,9
+H011,Hotel Cancun 011,D011,Cancun 011,Quintana Roo,Mexico,4.2,4752,high,19
+H012,Hotel Paris 012,D012,Paris 012,Ile de France,Francia,4.4,1943,medium,7
+H013,Hotel Tokio 013,D013,Tokio 013,Kanto,Japon,3.8,5832,high,18
+H014,Hotel Cusco 014,D014,Cusco 014,Cusco,Peru,4.5,6366,high,7
+H015,Hotel Madrid 015,D015,Madrid 015,Madrid,Espana,4.4,5927,high,7
+H016,Hotel Los Cabos 016,D016,Los Cabos 016,Baja California Sur,Mexico,3.7,3011,medium,12
+H017,Hotel Bariloche 017,D017,Bariloche 017,Rio Negro,Argentina,4.2,3572,medium,38
+H018,Hotel Roma 018,D018,Roma 018,Lazio,Italia,4.4,2164,medium,39
+H019,Hotel Bangkok 019,D019,Bangkok 019,Bangkok,Tailandia,3.9,6786,luxury,41
+H020,Hotel Vancouver 020,D020,Vancouver 020,British Columbia,Canada,4.5,5879,high,27
+H021,Hotel Cancun 021,D021,Cancun 021,Quintana Roo,Mexico,4.4,1998,medium,8
+H022,Hotel Paris 022,D022,Paris 022,Ile de France,Francia,3.7,5823,high,17
+H023,Hotel Tokio 023,D023,Tokio 023,Kanto,Japon,4.6,5266,high,31
+H024,Hotel Cusco 024,D024,Cusco 024,Cusco,Peru,4.3,3773,medium,33
+H025,Hotel Madrid 025,D025,Madrid 025,Madrid,Espana,4.0,4162,medium,15
+H026,Hotel Los Cabos 026,D026,Los Cabos 026,Baja California Sur,Mexico,4.7,6926,luxury,9
+H027,Hotel Bariloche 027,D027,Bariloche 027,Rio Negro,Argentina,4.0,5905,high,35
+H028,Hotel Roma 028,D028,Roma 028,Lazio,Italia,4.6,4013,medium,22
+H029,Hotel Bangkok 029,D029,Bangkok 029,Bangkok,Tailandia,5.0,6188,high,11
+H030,Hotel Vancouver 030,D030,Vancouver 030,British Columbia,Canada,4.2,5393,high,25
+H031,Hotel Cancun 031,D031,Cancun 031,Quintana Roo,Mexico,4.9,2445,medium,30
+H032,Hotel Paris 032,D032,Paris 032,Ile de France,Francia,4.9,1521,low,8
+H033,Hotel Tokio 033,D033,Tokio 033,Kanto,Japon,4.4,5771,high,24
+H034,Hotel Cusco 034,D034,Cusco 034,Cusco,Peru,4.6,3986,medium,42
+H035,Hotel Madrid 035,D035,Madrid 035,Madrid,Espana,4.4,5268,high,33
+H036,Hotel Los Cabos 036,D036,Los Cabos 036,Baja California Sur,Mexico,4.8,1763,low,21
+H037,Hotel Bariloche 037,D037,Bariloche 037,Rio Negro,Argentina,4.6,5083,high,8
+H038,Hotel Roma 038,D038,Roma 038,Lazio,Italia,4.6,1697,low,23
+H039,Hotel Bangkok 039,D039,Bangkok 039,Bangkok,Tailandia,4.4,6501,luxury,32
+H040,Hotel Vancouver 040,D040,Vancouver 040,British Columbia,Canada,4.6,3531,medium,26
+H041,Hotel Cancun 041,D041,Cancun 041,Quintana Roo,Mexico,4.9,1384,low,26
+H042,Hotel Paris 042,D042,Paris 042,Ile de France,Francia,4.5,2576,medium,35
+H043,Hotel Tokio 043,D043,Tokio 043,Kanto,Japon,3.9,1682,low,22
+H044,Hotel Cusco 044,D044,Cusco 044,Cusco,Peru,4.6,2259,medium,29
+H045,Hotel Madrid 045,D045,Madrid 045,Madrid,Espana,4.9,4402,high,35
+H046,Hotel Los Cabos 046,D046,Los Cabos 046,Baja California Sur,Mexico,3.8,1860,medium,29
+H047,Hotel Bariloche 047,D047,Bariloche 047,Rio Negro,Argentina,4.0,5701,high,12
+H048,Hotel Roma 048,D048,Roma 048,Lazio,Italia,4.8,4726,high,21
+H049,Hotel Bangkok 049,D049,Bangkok 049,Bangkok,Tailandia,4.2,6986,luxury,26
+H050,Hotel Vancouver 050,D050,Vancouver 050,British Columbia,Canada,4.8,6792,luxury,18
+H051,Hotel Cancun 051,D051,Cancun 051,Quintana Roo,Mexico,3.7,2436,medium,13
+H052,Hotel Paris 052,D052,Paris 052,Ile de France,Francia,4.5,3100,medium,4
+H053,Hotel Tokio 053,D053,Tokio 053,Kanto,Japon,4.8,5172,high,15
+H054,Hotel Cusco 054,D054,Cusco 054,Cusco,Peru,4.0,3352,medium,13
+H055,Hotel Madrid 055,D055,Madrid 055,Madrid,Espana,4.3,4632,high,43
+H056,Hotel Los Cabos 056,D056,Los Cabos 056,Baja California Sur,Mexico,4.0,5839,high,12
+H057,Hotel Bariloche 057,D057,Bariloche 057,Rio Negro,Argentina,4.8,6856,luxury,43
+H058,Hotel Roma 058,D058,Roma 058,Lazio,Italia,4.5,6565,luxury,7
+H059,Hotel Bangkok 059,D059,Bangkok 059,Bangkok,Tailandia,4.9,4940,high,39
+H060,Hotel Vancouver 060,D060,Vancouver 060,British Columbia,Canada,4.2,4414,high,29
+H061,Hotel Cancun 061,D061,Cancun 061,Quintana Roo,Mexico,4.3,2048,medium,29
+H062,Hotel Paris 062,D062,Paris 062,Ile de France,Francia,3.9,1709,low,17
+H063,Hotel Tokio 063,D063,Tokio 063,Kanto,Japon,3.8,4809,high,25
+H064,Hotel Cusco 064,D064,Cusco 064,Cusco,Peru,3.7,6121,high,4
+H065,Hotel Madrid 065,D065,Madrid 065,Madrid,Espana,3.8,5843,high,10
+H066,Hotel Los Cabos 066,D066,Los Cabos 066,Baja California Sur,Mexico,4.5,4178,medium,8
+H067,Hotel Bariloche 067,D067,Bariloche 067,Rio Negro,Argentina,4.5,2903,medium,13
+H068,Hotel Roma 068,D068,Roma 068,Lazio,Italia,4.0,6397,high,26
+H069,Hotel Bangkok 069,D069,Bangkok 069,Bangkok,Tailandia,4.1,6133,high,11
+H070,Hotel Vancouver 070,D070,Vancouver 070,British Columbia,Canada,4.8,2144,medium,33
+H071,Hotel Cancun 071,D071,Cancun 071,Quintana Roo,Mexico,4.3,5135,high,9
+H072,Hotel Paris 072,D072,Paris 072,Ile de France,Francia,3.7,2380,medium,25
+H073,Hotel Tokio 073,D073,Tokio 073,Kanto,Japon,4.3,3368,medium,14
+H074,Hotel Cusco 074,D074,Cusco 074,Cusco,Peru,3.6,5429,high,37
+H075,Hotel Madrid 075,D075,Madrid 075,Madrid,Espana,3.8,4163,medium,38
+H076,Hotel Los Cabos 076,D076,Los Cabos 076,Baja California Sur,Mexico,4.7,1421,low,23
+H077,Hotel Bariloche 077,D077,Bariloche 077,Rio Negro,Argentina,4.8,6466,high,20
+H078,Hotel Roma 078,D078,Roma 078,Lazio,Italia,4.1,5446,high,14
+H079,Hotel Bangkok 079,D079,Bangkok 079,Bangkok,Tailandia,4.7,4113,medium,38
+H080,Hotel Vancouver 080,D080,Vancouver 080,British Columbia,Canada,4.7,5636,high,25
+H081,Hotel Cancun 081,D081,Cancun 081,Quintana Roo,Mexico,3.9,6413,high,16
+H082,Hotel Paris 082,D082,Paris 082,Ile de France,Francia,4.7,3161,medium,18
+H083,Hotel Tokio 083,D083,Tokio 083,Kanto,Japon,4.3,2837,medium,26
+H084,Hotel Cusco 084,D084,Cusco 084,Cusco,Peru,3.6,7188,luxury,5
+H085,Hotel Madrid 085,D085,Madrid 085,Madrid,Espana,4.3,3488,medium,16
+H086,Hotel Los Cabos 086,D086,Los Cabos 086,Baja California Sur,Mexico,4.4,6873,luxury,26
+H087,Hotel Bariloche 087,D087,Bariloche 087,Rio Negro,Argentina,4.7,4863,high,26
+H088,Hotel Roma 088,D088,Roma 088,Lazio,Italia,3.7,4187,medium,10
+H089,Hotel Bangkok 089,D089,Bangkok 089,Bangkok,Tailandia,4.3,3058,medium,25
+H090,Hotel Vancouver 090,D090,Vancouver 090,British Columbia,Canada,4.3,2874,medium,43
+H091,Hotel Cancun 091,D091,Cancun 091,Quintana Roo,Mexico,4.3,1215,low,45
+H092,Hotel Paris 092,D092,Paris 092,Ile de France,Francia,4.7,4018,medium,9
+H093,Hotel Tokio 093,D093,Tokio 093,Kanto,Japon,3.8,6611,luxury,28
+H094,Hotel Cusco 094,D094,Cusco 094,Cusco,Peru,4.7,7028,luxury,34
+H095,Hotel Madrid 095,D095,Madrid 095,Madrid,Espana,4.2,2662,medium,44
+H096,Hotel Los Cabos 096,D096,Los Cabos 096,Baja California Sur,Mexico,3.7,3923,medium,29
+H097,Hotel Bariloche 097,D097,Bariloche 097,Rio Negro,Argentina,4.2,4994,high,9
+H098,Hotel Roma 098,D098,Roma 098,Lazio,Italia,3.8,7137,luxury,12
+H099,Hotel Bangkok 099,D099,Bangkok 099,Bangkok,Tailandia,3.8,1425,low,33
+H100,Hotel Vancouver 100,D100,Vancouver 100,British Columbia,Canada,3.8,6572,luxury,42
+H101,Hotel Cancun 101,D101,Cancun 101,Quintana Roo,Mexico,4.5,5085,high,26
+H102,Hotel Paris 102,D102,Paris 102,Ile de France,Francia,4.4,2477,medium,12
+H103,Hotel Tokio 103,D103,Tokio 103,Kanto,Japon,3.6,1375,low,45
+H104,Hotel Cusco 104,D104,Cusco 104,Cusco,Peru,4.3,2041,medium,12
+H105,Hotel Madrid 105,D105,Madrid 105,Madrid,Espana,5.0,4753,high,16
+H106,Hotel Los Cabos 106,D106,Los Cabos 106,Baja California Sur,Mexico,3.6,2928,medium,17
+H107,Hotel Bariloche 107,D107,Bariloche 107,Rio Negro,Argentina,4.3,3599,medium,41
+H108,Hotel Roma 108,D108,Roma 108,Lazio,Italia,4.0,3870,medium,30
+H109,Hotel Bangkok 109,D109,Bangkok 109,Bangkok,Tailandia,3.7,2273,medium,26
+H110,Hotel Vancouver 110,D110,Vancouver 110,British Columbia,Canada,4.5,4953,high,37
+H111,Hotel Cancun 111,D111,Cancun 111,Quintana Roo,Mexico,4.8,4645,high,36
+H112,Hotel Paris 112,D112,Paris 112,Ile de France,Francia,4.3,2271,medium,37
+H113,Hotel Tokio 113,D113,Tokio 113,Kanto,Japon,3.6,5382,high,32
+H114,Hotel Cusco 114,D114,Cusco 114,Cusco,Peru,4.5,2700,medium,13
+H115,Hotel Madrid 115,D115,Madrid 115,Madrid,Espana,3.8,2611,medium,43
+H116,Hotel Los Cabos 116,D116,Los Cabos 116,Baja California Sur,Mexico,3.8,7140,luxury,7
+H117,Hotel Bariloche 117,D117,Bariloche 117,Rio Negro,Argentina,4.6,3870,medium,37
+H118,Hotel Roma 118,D118,Roma 118,Lazio,Italia,4.3,5750,high,10
+H119,Hotel Bangkok 119,D119,Bangkok 119,Bangkok,Tailandia,3.7,5789,high,16
+H120,Hotel Vancouver 120,D120,Vancouver 120,British Columbia,Canada,3.7,3468,medium,10

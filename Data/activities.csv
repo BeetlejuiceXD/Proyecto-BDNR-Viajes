@@ -1,0 +1,121 @@
+activity_id,activity_name,destination_id,destination_name,category,price
+A001,Snorkel,D001,Cancun,playa,800
+A002,Museo Louvre,D002,Paris,ciudad,650
+A003,Tour Shibuya,D003,Tokio,ciudad,500
+A004,Machu Picchu,D004,Cusco,montana,1200
+A005,Museo Prado,D005,Madrid,ciudad,400
+A006,Paseo en yate,D006,Los Cabos,playa,1800
+A007,Ruta historica Bariloche 007,D007,Bariloche 007,montana,2329
+A008,Mercado local Roma 008,D008,Roma 008,ciudad,2102
+A009,Mirador Bangkok 009,D009,Bangkok 009,ciudad,364
+A010,Tour fotografico Vancouver 010,D010,Vancouver 010,naturaleza,509
+A011,Cata regional Cancun 011,D011,Cancun 011,playa,2065
+A012,Bicicleta Paris 012,D012,Paris 012,ciudad,1583
+A013,Snorkel Tokio 013,D013,Tokio 013,ciudad,2320
+A014,Museo Cusco 014,D014,Cusco 014,montana,2347
+A015,Tour urbano Madrid 015,D015,Madrid 015,ciudad,1066
+A016,Senderismo Los Cabos 016,D016,Los Cabos 016,playa,1385
+A017,Clase de cocina Bariloche 017,D017,Bariloche 017,montana,2102
+A018,Paseo en yate Roma 018,D018,Roma 018,ciudad,2331
+A019,Ruta historica Bangkok 019,D019,Bangkok 019,ciudad,2434
+A020,Mercado local Vancouver 020,D020,Vancouver 020,naturaleza,2208
+A021,Mirador Cancun 021,D021,Cancun 021,playa,2329
+A022,Tour fotografico Paris 022,D022,Paris 022,ciudad,1264
+A023,Cata regional Tokio 023,D023,Tokio 023,ciudad,2393
+A024,Bicicleta Cusco 024,D024,Cusco 024,montana,1313
+A025,Snorkel Madrid 025,D025,Madrid 025,ciudad,1079
+A026,Museo Los Cabos 026,D026,Los Cabos 026,playa,2083
+A027,Tour urbano Bariloche 027,D027,Bariloche 027,montana,811
+A028,Senderismo Roma 028,D028,Roma 028,ciudad,1956
+A029,Clase de cocina Bangkok 029,D029,Bangkok 029,ciudad,748
+A030,Paseo en yate Vancouver 030,D030,Vancouver 030,naturaleza,1857
+A031,Ruta historica Cancun 031,D031,Cancun 031,playa,2060
+A032,Mercado local Paris 032,D032,Paris 032,ciudad,1544
+A033,Mirador Tokio 033,D033,Tokio 033,ciudad,547
+A034,Tour fotografico Cusco 034,D034,Cusco 034,montana,1235
+A035,Cata regional Madrid 035,D035,Madrid 035,ciudad,2004
+A036,Bicicleta Los Cabos 036,D036,Los Cabos 036,playa,549
+A037,Snorkel Bariloche 037,D037,Bariloche 037,montana,1121
+A038,Museo Roma 038,D038,Roma 038,ciudad,1490
+A039,Tour urbano Bangkok 039,D039,Bangkok 039,ciudad,751
+A040,Senderismo Vancouver 040,D040,Vancouver 040,naturaleza,882
+A041,Clase de cocina Cancun 041,D041,Cancun 041,playa,1749
+A042,Paseo en yate Paris 042,D042,Paris 042,ciudad,835
+A043,Ruta historica Tokio 043,D043,Tokio 043,ciudad,1286
+A044,Mercado local Cusco 044,D044,Cusco 044,montana,812
+A045,Mirador Madrid 045,D045,Madrid 045,ciudad,2165
+A046,Tour fotografico Los Cabos 046,D046,Los Cabos 046,playa,1149
+A047,Cata regional Bariloche 047,D047,Bariloche 047,montana,635
+A048,Bicicleta Roma 048,D048,Roma 048,ciudad,1881
+A049,Snorkel Bangkok 049,D049,Bangkok 049,ciudad,2245
+A050,Museo Vancouver 050,D050,Vancouver 050,naturaleza,916
+A051,Tour urbano Cancun 051,D051,Cancun 051,playa,1166
+A052,Senderismo Paris 052,D052,Paris 052,ciudad,911
+A053,Clase de cocina Tokio 053,D053,Tokio 053,ciudad,2017
+A054,Paseo en yate Cusco 054,D054,Cusco 054,montana,2361
+A055,Ruta historica Madrid 055,D055,Madrid 055,ciudad,1904
+A056,Mercado local Los Cabos 056,D056,Los Cabos 056,playa,1639
+A057,Mirador Bariloche 057,D057,Bariloche 057,montana,1975
+A058,Tour fotografico Roma 058,D058,Roma 058,ciudad,1051
+A059,Cata regional Bangkok 059,D059,Bangkok 059,ciudad,1710
+A060,Bicicleta Vancouver 060,D060,Vancouver 060,naturaleza,1554
+A061,Snorkel Cancun 061,D061,Cancun 061,playa,627
+A062,Museo Paris 062,D062,Paris 062,ciudad,1748
+A063,Tour urbano Tokio 063,D063,Tokio 063,ciudad,329
+A064,Senderismo Cusco 064,D064,Cusco 064,montana,1634
+A065,Clase de cocina Madrid 065,D065,Madrid 065,ciudad,2128
+A066,Paseo en yate Los Cabos 066,D066,Los Cabos 066,playa,2054
+A067,Ruta historica Bariloche 067,D067,Bariloche 067,montana,324
+A068,Mercado local Roma 068,D068,Roma 068,ciudad,1824
+A069,Mirador Bangkok 069,D069,Bangkok 069,ciudad,1607
+A070,Tour fotografico Vancouver 070,D070,Vancouver 070,naturaleza,2369
+A071,Cata regional Cancun 071,D071,Cancun 071,playa,1460
+A072,Bicicleta Paris 072,D072,Paris 072,ciudad,2348
+A073,Snorkel Tokio 073,D073,Tokio 073,ciudad,513
+A074,Museo Cusco 074,D074,Cusco 074,montana,712
+A075,Tour urbano Madrid 075,D075,Madrid 075,ciudad,1186
+A076,Senderismo Los Cabos 076,D076,Los Cabos 076,playa,679
+A077,Clase de cocina Bariloche 077,D077,Bariloche 077,montana,594
+A078,Paseo en yate Roma 078,D078,Roma 078,ciudad,1337
+A079,Ruta historica Bangkok 079,D079,Bangkok 079,ciudad,1363
+A080,Mercado local Vancouver 080,D080,Vancouver 080,naturaleza,412
+A081,Mirador Cancun 081,D081,Cancun 081,playa,993
+A082,Tour fotografico Paris 082,D082,Paris 082,ciudad,1357
+A083,Cata regional Tokio 083,D083,Tokio 083,ciudad,780
+A084,Bicicleta Cusco 084,D084,Cusco 084,montana,1979
+A085,Snorkel Madrid 085,D085,Madrid 085,ciudad,1309
+A086,Museo Los Cabos 086,D086,Los Cabos 086,playa,1912
+A087,Tour urbano Bariloche 087,D087,Bariloche 087,montana,861
+A088,Senderismo Roma 088,D088,Roma 088,ciudad,2447
+A089,Clase de cocina Bangkok 089,D089,Bangkok 089,ciudad,2358
+A090,Paseo en yate Vancouver 090,D090,Vancouver 090,naturaleza,2275
+A091,Ruta historica Cancun 091,D091,Cancun 091,playa,1589
+A092,Mercado local Paris 092,D092,Paris 092,ciudad,616
+A093,Mirador Tokio 093,D093,Tokio 093,ciudad,1393
+A094,Tour fotografico Cusco 094,D094,Cusco 094,montana,485
+A095,Cata regional Madrid 095,D095,Madrid 095,ciudad,1000
+A096,Bicicleta Los Cabos 096,D096,Los Cabos 096,playa,1992
+A097,Snorkel Bariloche 097,D097,Bariloche 097,montana,546
+A098,Museo Roma 098,D098,Roma 098,ciudad,1351
+A099,Tour urbano Bangkok 099,D099,Bangkok 099,ciudad,318
+A100,Senderismo Vancouver 100,D100,Vancouver 100,naturaleza,612
+A101,Clase de cocina Cancun 101,D101,Cancun 101,playa,1317
+A102,Paseo en yate Paris 102,D102,Paris 102,ciudad,593
+A103,Ruta historica Tokio 103,D103,Tokio 103,ciudad,1160
+A104,Mercado local Cusco 104,D104,Cusco 104,montana,522
+A105,Mirador Madrid 105,D105,Madrid 105,ciudad,1333
+A106,Tour fotografico Los Cabos 106,D106,Los Cabos 106,playa,748
+A107,Cata regional Bariloche 107,D107,Bariloche 107,montana,2108
+A108,Bicicleta Roma 108,D108,Roma 108,ciudad,297
+A109,Snorkel Bangkok 109,D109,Bangkok 109,ciudad,1639
+A110,Museo Vancouver 110,D110,Vancouver 110,naturaleza,1961
+A111,Tour urbano Cancun 111,D111,Cancun 111,playa,1347
+A112,Senderismo Paris 112,D112,Paris 112,ciudad,779
+A113,Clase de cocina Tokio 113,D113,Tokio 113,ciudad,426
+A114,Paseo en yate Cusco 114,D114,Cusco 114,montana,2408
+A115,Ruta historica Madrid 115,D115,Madrid 115,ciudad,1226
+A116,Mercado local Los Cabos 116,D116,Los Cabos 116,playa,698
+A117,Mirador Bariloche 117,D117,Bariloche 117,montana,911
+A118,Tour fotografico Roma 118,D118,Roma 118,ciudad,1322
+A119,Cata regional Bangkok 119,D119,Bangkok 119,ciudad,456
+A120,Bicicleta Vancouver 120,D120,Vancouver 120,naturaleza,991
