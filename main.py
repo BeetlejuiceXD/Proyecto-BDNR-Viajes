@@ -2,6 +2,8 @@ from connect import connect_mongo, connect_cassandra, connect_dgraph
 from populate import load_all, drop_mongo, drop_cassandra, drop_dgraph
 from Mongodb import querys_mongodb
 from Dgraph import querys_dgraph
+from Cassandra import querys_cassandra
+
 
 
 def cargar_datos(mongo_db, cassandra_session, dgraph_client):
@@ -89,7 +91,6 @@ def main():
                             break
                         else:
                             print("Opcion invalida")
-
                 elif section_option == "2":
                     # Consultas de reservaciones.
                     while True:
@@ -97,7 +98,8 @@ def main():
                         print("1. Historial de reservaciones por ubicacion y periodo Query 1 Cassandra")
                         print("2. Reservaciones recientes activas Query 2 Cassandra")
                         print("3. Itinerarios creados por un usuario Query 6 MongoDB")
-                        print("4. Regresar")
+                        print("4. Historial de cancelaciones Query 8 Cassandra")
+                        print("5. Regresar")
 
                         query_option = input("\nSelecciona una consulta: ")
 
@@ -114,6 +116,10 @@ def main():
                             print("-" * 40)
                             querys_mongodb.query_itinerarios_usuario(mongo_db)
                         elif query_option == "4":
+                            print("\n>>> Historial de cancelaciones Query 8 Cassandra")
+                            print("-" * 40)
+                            querys_cassandra.query_historial_cancelaciones(cassandra_session)
+                        elif query_option == "5":
                             break
                         else:
                             print("Opcion invalida")
