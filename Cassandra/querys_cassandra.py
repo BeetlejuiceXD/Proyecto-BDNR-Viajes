@@ -44,13 +44,12 @@ SELECT_BUSQUEDAS_USUARIO = """
     WHERE user_id = ? AND search_time >= ? AND search_time <= ?
 """
 
-# Req 5 - Catalogo de actividades por destino y categoria
+# Req 5 - Catalogo de actividades por destino
 SELECT_CATALOGO_ACTIVIDADES = """
     SELECT destination_id, category, activity_name, price
     FROM catalogo_actividades
-    WHERE destination_id = ? AND category = ? AND activity_name = ?
+    WHERE destination_id = ?
 """
-
 # Req 6 - Disponibilidad de hoteles por destino
 SELECT_DISPONIBILIDAD_HOTELES = """
     SELECT hotel_id, hotel_name, available_rooms, start_date, end_date
@@ -125,16 +124,12 @@ def query_busquedas_usuario(session):
 # Req 5
 def query_actividades_destino(session):
     destination_id = input("ID del destino (ej: D001): ")
-    category = input("Categoria: ")
-    activity_name = input("Nombre de la actividad: ")
 
-    log.info(f"Buscando actividad {activity_name} en {destination_id}")
+    log.info(f"Consultando catalogo de {destination_id}")
     stmt = session.prepare(SELECT_CATALOGO_ACTIVIDADES)
-    rows = session.execute(stmt, [destination_id, category, activity_name])
+    rows = session.execute(stmt, [destination_id])
     for r in rows:
         print(f"destination_id={r.destination_id}, category={r.category}, activity_name={r.activity_name}, price={r.price}")
-
-
 # Req 6
 def query_disponibilidad_destino(session):
     destination_id = input("ID del destino (ej: D001): ")
