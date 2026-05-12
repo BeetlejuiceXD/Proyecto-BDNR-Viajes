@@ -1,6 +1,7 @@
 from connect import connect_mongo, connect_cassandra, connect_dgraph
 from populate import load_all, drop_mongo, drop_cassandra, drop_dgraph
 from Mongodb import querys_mongodb
+from Dgraph import querys_dgraph
 
 
 def cargar_datos(mongo_db, cassandra_session, dgraph_client):

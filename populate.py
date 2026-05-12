@@ -222,41 +222,37 @@ def drop_dgraph(client):
     print("  Dgraph: todo borrado")
 def create_dgraph_schema(client):
     schema = """
-    # User 
-    user_name:        string  @index(hash) .
-    email:            string  @index(hash) .
+    user_id: string @index(hash) .
+    user_name: string @index(hash) .
+    email: string @index(hash) .
 
-    # Destination 
-    destination_name: string  @index(hash) .
-    price:            float                .
-    location:         string  @index(hash) .
+    destination_id: string @index(hash) .
+    destination_name: string @index(hash) .
+    location: string @index(hash) .
+    price: float @index(float) .
 
-    # Activity 
-    activity_name:    string  @index(hash) .
+    activity_id: string @index(hash) .
+    activity_name: string @index(hash) .
 
-    # Hotel 
-    hotel_name:       string  @index(hash) .
-    stars:            int                  .
+    hotel_id: string @index(hash) .
+    hotel_name: string @index(hash) .
+    stars: int .
 
-    # Category 
-    category_name:    string  @index(hash) .
+    category_name: string @index(hash) .
+    name: string @index(hash) .
+    code: string .
 
-    # Country 
-    name:             string  @index(hash) .
-    code:             string               .
+    amigo: [uid] .
+    destino: [uid] @reverse @count .
+    hizo_actividad: [uid] .
+    category: uid @reverse .
+    pais: uid @reverse .
+    hospedaje: [uid] .
+    tiene_actividad: [uid] .
+    region: uid @reverse .
 
-    # Relaciones 
-    amigo:            [uid]                              .
-    destino:          [uid]  @reverse @count             .
-    hizo_actividad:   [uid]                              .
-    category:         uid    @reverse                    .
-    pais:             uid    @reverse                    .
-    hospedaje:        [uid]                              .
-    tiene_actividad:  [uid]                              .
-    region:           uid    @reverse                    .
-
-    #Tipos 
     type User {
+        user_id
         user_name
         email
         amigo
@@ -265,6 +261,7 @@ def create_dgraph_schema(client):
     }
 
     type Destination {
+        destination_id
         destination_name
         price
         location
@@ -274,13 +271,16 @@ def create_dgraph_schema(client):
     }
 
     type Activity {
+        activity_id
         activity_name
         price
     }
 
     type Hotel {
+        hotel_id
         hotel_name
         stars
+        price
         tiene_actividad
     }
 
@@ -301,6 +301,146 @@ def create_dgraph_schema(client):
     op = pydgraph.Operation(schema=schema)
     client.alter(op)
     print("  Dgraph: esquema creado")
+
+
+def key(value):
+    return value.replace(" ", "_").replace("-", "_")
+
+
+def load_dgraph_users(client):
+    txn = client.txn()
+    try:
+        users = []
+        for row in read_csv("users.csv"):
+            users.append({
+                "uid": "_:user_" + row["user_id"],
+                "dgraph.type": "User",
+                "user_id": row["user_id"],
+                "user_name": row["user_name"],
+                "email": row["email"],
+            })
+        res = txn.mutate(set_obj=users)
+        txn.commit()
+        print("  Dgraph: usuarios cargados")
+        return res.uids
+    finally:
+        txn.discard()
+
+
+def load_dgraph_catalogs(client):
+    txn = client.txn()
+    try:
+        data = []
+        categories = set()
+        regions = set()
+        countries = set()
+        for row in read_csv("destinations.csv"):
+            if row["category"] not in categories:
+                categories.add(row["category"])
+                data.append({"uid": "_:category_" + key(row["category"]), "dgraph.type": "Category", "category_name": row["category"]})
+            if row["region"] not in regions:
+                regions.add(row["region"])
+                data.append({"uid": "_:region_" + key(row["region"]), "dgraph.type": "Region", "name": row["region"]})
+            if row["country"] not in countries:
+                countries.add(row["country"])
+                data.append({
+                    "uid": "_:country_" + key(row["country"]),
+                    "dgraph.type": "Country",
+                    "name": row["country"],
+                    "code": row["code"],
+                    "region": {"uid": "_:region_" + key(row["region"])},
+                })
+            data.append({
+                "uid": "_:destination_" + row["destination_id"],
+                "dgraph.type": "Destination",
+                "destination_id": row["destination_id"],
+                "destination_name": row["destination_name"],
+                "location": row["location"],
+                "price": 0,
+                "category": {"uid": "_:category_" + key(row["category"])},
+                "pais": {"uid": "_:country_" + key(row["country"])},
+            })
+        res = txn.mutate(set_obj=data)
+        txn.commit()
+        print("  Dgraph: destinos y catalogos cargados")
+        return res.uids
+    finally:
+        txn.discard()
+
+
+def load_dgraph_hotels_activities(client, catalog_uids):
+    txn = client.txn()
+    try:
+        data = []
+        for row in read_csv("hotels.csv"):
+            data.append({
+                "uid": "_:hotel_" + row["hotel_id"],
+                "dgraph.type": "Hotel",
+                "hotel_id": row["hotel_id"],
+                "hotel_name": row["hotel_name"],
+                "stars": int(round(float(row["rating"]))),
+                "price": float(row["price"]),
+            })
+            data.append({
+                "uid": catalog_uids["destination_" + row["destination_id"]],
+                "hospedaje": {"uid": "_:hotel_" + row["hotel_id"]},
+            })
+        for row in read_csv("activities.csv"):
+            data.append({
+                "uid": "_:activity_" + row["activity_id"],
+                "dgraph.type": "Activity",
+                "activity_id": row["activity_id"],
+                "activity_name": row["activity_name"],
+                "price": float(row["price"]),
+            })
+        for row in read_csv("hotel_activities.csv"):
+            data.append({
+                "uid": "_:hotel_" + row["hotel_id"],
+                "tiene_actividad": {"uid": "_:activity_" + row["activity_id"]},
+            })
+        res = txn.mutate(set_obj=data)
+        txn.commit()
+        print("  Dgraph: hoteles y actividades cargados")
+        return res.uids
+    finally:
+        txn.discard()
+
+
+def load_dgraph_edges(client, user_uids, catalog_uids, object_uids):
+    txn = client.txn()
+    try:
+        data = []
+        for row in read_csv("friends.csv"):
+            data.append({
+                "uid": user_uids["user_" + row["user_id"]],
+                "amigo": {"uid": user_uids["user_" + row["friend_id"]]},
+            })
+        for row in read_csv("reservations.csv"):
+            if row["status"] == "confirmed":
+                data.append({
+                    "uid": user_uids["user_" + row["user_id"]],
+                    "destino": {"uid": catalog_uids["destination_" + row["destination_id"]]},
+                })
+        for row in read_csv("user_activities.csv"):
+            data.append({
+                "uid": user_uids["user_" + row["user_id"]],
+                "hizo_actividad": {"uid": object_uids["activity_" + row["activity_id"]]},
+            })
+        txn.mutate(set_obj=data)
+        txn.commit()
+        print("  Dgraph: relaciones cargadas")
+    finally:
+        txn.discard()
+
+
+def load_dgraph(client):
+    drop_dgraph(client)
+    create_dgraph_schema(client)
+    users = load_dgraph_users(client)
+    catalogs = load_dgraph_catalogs(client)
+    objects = load_dgraph_hotels_activities(client, catalogs)
+    load_dgraph_edges(client, users, catalogs, objects)
+    print("  Dgraph: datos cargados")
 
 
 #Agreguen sus funciones de load de su base aqui!!!

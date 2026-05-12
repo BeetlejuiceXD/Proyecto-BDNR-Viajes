@@ -35,10 +35,10 @@ def req2(client):
     {
         destinos_populares(func: eq(category_name, $category)) {
             category_name
-            ~category (orderdesc: count(~destino)) {
+            ~category {
                 destination_name
                 location
-                count(~destino)
+                visitas: count(~destino)
             }
         }
     }
@@ -85,7 +85,7 @@ def req4(client):
         actividades_hotel(func: eq(hotel_name, $hotel)) {
             hotel_name
             stars
-            tieneActividad {
+            tiene_actividad {
                 activity_name
                 price
             }
@@ -109,7 +109,7 @@ def req5(client):
             user_name
             amigo {
                 user_name
-                hizoActividad {
+                hizo_actividad {
                     activity_name
                     price
                 }
