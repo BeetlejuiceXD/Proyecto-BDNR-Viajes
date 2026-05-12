@@ -448,4 +448,5 @@ def load_all(mongo_db, cassandra_session, dgraph_client):
     # Punto central para cargar todas las bases.
     load_mongo(mongo_db)
     load_cassandra(cassandra_session)
+    load_dgraph(dgraph_client)
     print("  Carga completa")
