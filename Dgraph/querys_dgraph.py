@@ -14,7 +14,6 @@ def req1(client):
                 user_name
                 destino {
                     destination_name
-                    price
                 }
             }
         }

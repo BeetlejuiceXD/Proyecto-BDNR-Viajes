@@ -356,7 +356,6 @@ def load_dgraph_catalogs(client):
                 "destination_id": row["destination_id"],
                 "destination_name": row["destination_name"],
                 "location": row["location"],
-                "price": 0,
                 "category": {"uid": "_:category_" + key(row["category"])},
                 "pais": {"uid": "_:country_" + key(row["country"])},
             })
