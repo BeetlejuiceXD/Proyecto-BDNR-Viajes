@@ -161,3 +161,4 @@ def query_historial_cancelaciones(session):
     rows = session.execute(stmt, [user_id])
     for r in rows:
         print(f"reservation_id={r.reservation_id}, reservation_time={show_date(r.reservation_time)}, status={r.status}")
+    

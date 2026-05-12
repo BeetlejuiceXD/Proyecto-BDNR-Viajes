@@ -68,7 +68,7 @@ def main():
                     # Consultas de costos y presupuesto.
                     while True:
                         print("\n--- Costos y Presupuesto ---")
-                        print("1. Gasto promedio mensual del usuario Query 2 MongoDB")
+                        print("1. Gasto promedio anual del usuario Query 2 MongoDB")
                         print("2. Ingresos totales por destino en el ano Query 8 MongoDB")
                         print("3. Tarifas de hotel por ano Query 3 Cassandra")
                         print("4. Regresar")
@@ -76,7 +76,7 @@ def main():
                         query_option = input("\nSelecciona una consulta: ")
 
                         if query_option == "1":
-                            print("\n>>> Gasto promedio mensual del usuario Query 2 MongoDB")
+                            print("\n>>> Gasto promedio anual del usuario Query 2 MongoDB")
                             print("-" * 40)
                             querys_mongodb.query_gasto_promedio(mongo_db)
                         elif query_option == "2":
